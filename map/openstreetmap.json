@@ -11,7 +11,7 @@
   "pitch": 0,
   "sources": {
     "openmaptiles": {
-      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL",
+      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=6JhWL6EM0R7GkJlqa3ar",
       "type": "vector"
     }
   },
