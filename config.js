@@ -22,7 +22,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Main Campus',
-            image: './images/image1.jpg',
+            image: './images/IMG_5609.PNG',
             caption: 'Charles Library Building',
             website: '<a href="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd" target="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd">Historical map</a>',
             //author: 'Felipe Valdez',
