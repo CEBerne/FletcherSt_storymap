@@ -1,5 +1,5 @@
 var config = {
-    style: './map/openstreetmap.json',
+    style: './map/style.json',
     showMarkers: true,
     markerColor: '#a41e35',
     inset: true, // if inset map is set to true, legend will be disabled.
@@ -10,9 +10,9 @@ var config = {
     bookmarks: true,
     chapterReturn: true,
     auto: false,
-    //title: 'A tour of Temple University Campuses',
+    title: 'A tour of Temple University Campuses',
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Temple_University_Logo.svg/320px-Temple_University_Logo.svg.png",
-    subtitle: 'Temple University Campuses',
+    subtitle: 'Demo for the fall 2024 workshop',
     byline: 'By Felipe Valdez',
     mobileview: '<div id="rotate-mobile"><em>For optimal viewing of this storytelling map on mobile, rotate your device to a horizontal orientation.</em><br><br><img src="images/device.png">', // to add custom messaging in the header for mobile devices
     footer: 'Source: source citations, etc.<br> Created using <a href="https://github.com/digidem/maplibre-storymap" target="_blank">MapLibre Storytelling</a> template.',
@@ -22,7 +22,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Main Campus',
-            image: './images/IMG_5609.PNG',
+            image: './images/image1.jpg',
             caption: 'Charles Library Building',
             website: '<a href="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd" target="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd">Historical map</a>',
             //author: 'Felipe Valdez',
