@@ -18,10 +18,10 @@ var config = {
     footer: 'Source: source citations, etc.<br> Created using <a href="https://github.com/digidem/maplibre-storymap" target="_blank">MapLibre Storytelling</a> template.',
     chapters: [
         {
-            id: 'chapter1',
+            id: '1875',
             alignment: 'left',
             hidden: false,
-            title: 'Main Campus',
+            title: '1875',
             image: './images/image1.jpg',
             caption: 'Charles Library Building',
             website: '<a href="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd" target="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd">Historical map</a>',
@@ -29,9 +29,9 @@ var config = {
             //legend: '<span style="font-size: 0.85em;"><em>Legend content</em><br></span><img src="/images/legend1.png" style="display: block; margin-top: 10px; width: 100%; max-width: 200px;">',
             description: 'Temple’s bustling Main Campus crackles with energy, thanks to its location in the heart of Philadelphia, numerous new building projects and the 10,000 students who now live on or around our increasingly residential campus. On- and off-campus activities abound, including more than 300 student organizations; Division I sporting events; and nearby restaurants, shops and entertainment. <iframe width="100%" height="800px" src="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd" frameborder="0" scrolling="no"></iframe>',
             location: {
-                center: [-75.15552, 39.98203],
-                zoom: 16.57,
-                pitch: 49,
+                center: [-75.18187, 39.99027],
+                zoom: 16.12,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
