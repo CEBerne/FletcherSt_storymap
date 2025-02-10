@@ -1,5 +1,5 @@
 var config = {
-    style: './map/style.json',
+    style: './map/openstreetmap.json',
     showMarkers: true,
     markerColor: '#a41e35',
     inset: true, // if inset map is set to true, legend will be disabled.
