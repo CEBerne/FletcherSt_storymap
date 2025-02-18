@@ -1,7 +1,7 @@
 var externalData = {
     sources: [
       {
-          "name": 'PCW',
+          "name": '1875_poly',
           "type": 'geojson',
           "data": 'https://raw.githubusercontent.com/fmvaldezg/maplibre-storymap/main/map/sources/network.geojson'
         },
