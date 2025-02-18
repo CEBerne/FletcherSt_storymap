@@ -1,6 +1,6 @@
 var config = {
     style: './map/openstreetmap.json',
-    showMarkers: true,
+    showMarkers: false,
     markerColor: '#a41e35',
     inset: true, // if inset map is set to true, legend will be disabled.
     legend: false, // if legend is set to true, inset will be disabled.
@@ -10,10 +10,10 @@ var config = {
     bookmarks: true,
     chapterReturn: true,
     auto: false,
-    title: 'A tour of Temple University Campuses',
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Temple_University_Logo.svg/320px-Temple_University_Logo.svg.png",
-    subtitle: 'Demo for the fall 2024 workshop',
-    byline: 'By Felipe Valdez',
+    //title: 'A tour of Temple University Campuses',
+    //logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Temple_University_Logo.svg/320px-Temple_University_Logo.svg.png",
+    //subtitle: 'Demo for the fall 2024 workshop',
+    //byline: 'By Felipe Valdez',
     mobileview: '<div id="rotate-mobile"><em>For optimal viewing of this storytelling map on mobile, rotate your device to a horizontal orientation.</em><br><br><img src="images/device.png">', // to add custom messaging in the header for mobile devices
     footer: 'Source: source citations, etc.<br> Created using <a href="https://github.com/digidem/maplibre-storymap" target="_blank">MapLibre Storytelling</a> template.',
     chapters: [
@@ -22,9 +22,9 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '1875',
-            image: './images/image1.jpg',
-            caption: 'Charles Library Building',
-            website: '<a href="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd" target="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd">Historical map</a>',
+            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/1883_Hexamer_Depot_in_detail.jpg',
+            caption: 'Horse Car Depot',
+            //website: '<a href="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd" target="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd">Historical map</a>',
             //author: 'Felipe Valdez',
             //legend: '<span style="font-size: 0.85em;"><em>Legend content</em><br></span><img src="/images/legend1.png" style="display: block; margin-top: 10px; width: 100%; max-width: 200px;">',
             description: 'Temple’s bustling Main Campus crackles with energy, thanks to its location in the heart of Philadelphia, numerous new building projects and the 10,000 students who now live on or around our increasingly residential campus. On- and off-campus activities abound, including more than 300 student organizations; Division I sporting events; and nearby restaurants, shops and entertainment. <iframe width="100%" height="800px" src="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd" frameborder="0" scrolling="no"></iframe>',
