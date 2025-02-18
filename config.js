@@ -6,7 +6,7 @@ var config = {
     legend: false, // if legend is set to true, inset will be disabled.
     theme: 'dark',
     use3dTerrain: false, //set true for enabling 3D maps. You will need to provide your own terrain tiles.
-    useCustomLayers: false, //set true for enabling custom layers from sources.js
+    useCustomLayers: true, //set true for enabling custom layers from sources.js
     bookmarks: true,
     chapterReturn: true,
     auto: false,
@@ -41,14 +41,11 @@ var config = {
             callback: '',
             onChapterEnter: [
                  {
-                //     layer: 'pcwnet',
-                //     opacity: 1,
-                //     duration: 5000
+                     layer: '1875_poly',
+                     opacity: 1,
+                     duration: 5000
                  }
-                // {
-                //      layer: 'countries-fill',
-                //      opacity: 1
-                // }
+
             ],
             onChapterExit: [
                 // {
