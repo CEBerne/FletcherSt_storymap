@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "1875_chapter",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"xy_coordinate_resolution": 1e-15,
+"features": [
+{ "type": "Feature", "properties": { "id": null, "address": "3133 Ridge Ave", "type": "Depot", "layer": "3133 Ridge Ave", "path": "C:\\Users\\tuj82036\\OneDrive - Temple University\\FletcherSt_images\\1875 Hopkins Horse Car Depot\\3133 Ridge Ave.shp" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -75.184832215664457, 39.99062715738102 ], [ -75.184648468572107, 39.991531574791551 ], [ -75.183232214505509, 39.99133724676522 ], [ -75.183554587011997, 39.989904305421973 ], [ -75.1843864574343, 39.990002252734712 ], [ -75.184832215664457, 39.99062715738102 ] ] ] ] } },
+{ "type": "Feature", "properties": { "id": null, "address": "2603 W Fletcher St", "type": "red barn", "layer": "2603 W Fletcher St", "path": "C:/Users/tuj82036/OneDrive - Temple University/FletcherSt_images/1875 Hopkins Plate T polygons/2603 W Fletcher St.shp" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -75.175879076607217, 39.989708327785472 ], [ -75.175864237900896, 39.989798481099264 ], [ -75.175779017783299, 39.989786905997313 ], [ -75.175792682178297, 39.989697604857724 ], [ -75.175879076607217, 39.989708327785472 ] ] ] ] } },
+{ "type": "Feature", "properties": { "id": null, "address": "2813 W Fletcher St", "type": "Fletcher house", "layer": "2813 W Fletcher St", "path": "C:/Users/tuj82036/OneDrive - Temple University/FletcherSt_images/1875 Hopkins Plate T polygons/2813 W Fletcher St.shp" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -75.179133877866619, 39.990166950823138 ], [ -75.179096342426732, 39.990313698870537 ], [ -75.178932547365008, 39.990295973358386 ], [ -75.178957630139479, 39.990146310863452 ], [ -75.179133877866619, 39.990166950823138 ] ] ] ] } }
+]
+}
