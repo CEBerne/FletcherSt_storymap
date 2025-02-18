@@ -3,21 +3,17 @@ var externalData = {
       {
           "name": '1875_poly',
           "type": 'geojson',
-          "data": 'https://raw.githubusercontent.com/fmvaldezg/maplibre-storymap/main/map/sources/network.geojson'
+          "data": 'https://raw.githubusercontent.com/CEBerne/FletcherSt_storymap/main/map/sources/1875_chapter.geojson'
         },
     ],
     layers: [
       {
-          "id": "pcw-points",
-          "type": "circle",
-          "source": "PCW",
+          "id": "1875_poly",
+          "type": "fill",
+          "source": "1875_poly",
         //  "source-layer": "",
           "paint": {
-              "circle-radius": 8,
-              "circle-color": "#0f0f0f",
-              "circle-stroke-width": 0.5,
-              "circle-stroke-color": "#0f0f0f"
-
+              "fill-color": "#0f0f0f"
           }
       }
     ]
