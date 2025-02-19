@@ -1,21 +1,19 @@
 var config = {
     style: './map/openstreetmap.json',
     showMarkers: false,
-    markerColor: '#a41e35',
+    markerColor: 'ffffff',
     inset: true, // if inset map is set to true, legend will be disabled.
     legend: false, // if legend is set to true, inset will be disabled.
     theme: 'dark',
-    use3dTerrain: false, //set true for enabling 3D maps. You will need to provide your own terrain tiles.
-    useCustomLayers: false, //set true for enabling custom layers from sources.js
     bookmarks: true,
     chapterReturn: true,
-    auto: false,
+    auto: true,
     title: 'A tour of Temple University Campuses',
     //logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Temple_University_Logo.svg/320px-Temple_University_Logo.svg.png",
     subtitle: 'Demo for the fall 2024 workshop',
     byline: 'By Felipe Valdez',
     mobileview: '<div id="rotate-mobile"><em>For optimal viewing of this storytelling map on mobile, rotate your device to a horizontal orientation.</em><br><br><img src="images/device.png">', // to add custom messaging in the header for mobile devices
-    footer: 'Source: source citations, etc.<br> Created using <a href="https://github.com/digidem/maplibre-storymap" target="_blank">MapLibre Storytelling</a> template.',
+    footer: '',
     chapters: [
         {
             id: 'blank',
@@ -35,9 +33,7 @@ var config = {
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            spinGlobe: false,
-            mapInteractive: true,
+            mapInteractive: false,
             callback: '',
             //onChapterEnter: [
                  //{
@@ -72,9 +68,7 @@ var config = {
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            spinGlobe: false,
-            mapInteractive: true,
+            mapInteractive: false,
             callback: '',
             //onChapterEnter: [],
             //onChapterExit: []
@@ -92,29 +86,15 @@ var config = {
             description: '..description',
             location: {
                 center: [-75.183, 39.99027],
-                zoom: 16.12,
+                zoom: 16,
                 pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            spinGlobe: false,
             mapInteractive: true,
             callback: '',
-            onChapterEnter: [
-                 {
-                     layer: '1875_poly',
-                     opacity: 1,
-                     duration: 5000
-                 }
-
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
+            onChapterEnter: [],
+            onChapterExit: []
         },
         {
             id: 'chapter2',
@@ -132,21 +112,10 @@ var config = {
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            mapInteractive: true,
+            mapInteractive: false,
             callback: '',
-            onChapterEnter: [
-                {
-                    layer: 'pcwnet',
-                    opacity: 1
-                }
-           ],
-           onChapterExit: [
-               {
-                   layer: 'pcwnet',
-                   opacity: 0
-               }
-           ]
+            onChapterEnter: [],
+           onChapterExit: []
         },
         {
             id: 'chapter5',
@@ -164,15 +133,9 @@ var config = {
                 speed: 0.7
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            mapInteractive: true,
+            mapInteractive: false,
             callback: '',
-            onChapterEnter: [
-            //     {
-            //         layer: 'pcwnet',
-            //         opacity: 1
-            //     }
-            ],
+            onChapterEnter: [],
             onChapterExit: []
         }, 
         {
@@ -191,15 +154,9 @@ var config = {
                 speed: 0.7
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            mapInteractive: true,
+            mapInteractive: false,
             callback: '',
-            onChapterEnter: [
-            //     {
-            //         layer: 'pcwnet',
-            //         opacity: 1
-            //     }
-            ],
+            onChapterEnter: [],
             onChapterExit: []
         }
     ]

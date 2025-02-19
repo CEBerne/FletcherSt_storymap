@@ -5,7 +5,7 @@
     "maptiler:copyright": "You are licensed to use the style or its derivate for serving map tiles exclusively with MapTiler Server or MapTiler Cloud and in accordance with their licenses and terms. If you plan to use the style in a different way, contact us at sales@maptiler.com.",
     "maputnik:renderer": "mlgljs"
   },
-  "center": [2.8655946968546004, 22.80535462569901],
+  "center": [-99.78614, 39.74777],
   "zoom": 0.7418741168636303,
   "bearing": 0,
   "pitch": 0,
@@ -23,10 +23,11 @@
       "tiles": [
         "https://my-map-cogs.s3.us-east-2.amazonaws.com/tiles/{z}/{x}/{y}.png"
       ],
-      "minzoom": 16,
+      "minzoom": 14,
       "maxzoom": 18,
       "scheme": "xyz",
-      "tileSize": 512
+      "tileSize": 256,
+      "bounds": [-75.1895566, 39.9879230, -75.1729305, 39.9941765]
     }
   },
   "sprite": "https://api.maptiler.com/maps/openstreetmap/sprite",
@@ -6263,11 +6264,40 @@
       "paint": {"fill-color": "rgba(164, 113, 88, 1)"}
     },
     {
-      "id": "1875_depot",
-      "type": "fill",
+      "id": "depot2",
+      "type": "line",
       "source": "1875_poly",
-      "filter": ["all", ["==", "type", "Depot"]],
-      "paint": {"fill-color": "rgba(251, 236, 20, 1)"}
+      "filter": [
+        "all",
+        ["==", "type", "Depot"]
+      ],
+      "paint": {
+        "line-color": "rgba(251, 236, 20, 1)",
+        "line-width": 6
+      }
+    },
+    {
+      "id": "poly_ann",
+      "type": "symbol",
+      "source": "1875_poly",
+      "filter": [
+        "all",
+        ["==", "type", "Depot"]
+      ],
+      "layout": {
+        "text-field": "Depot",
+        "text-size": 16,
+        "text-font": [
+          "Open Sans Regular",
+          "Arial Unicode MS Regular"
+        ]
+      },
+      "paint": {
+        "text-color": "rgba(254, 255, 2, 1)",
+        "text-halo-color": "rgba(54, 54, 54, 1)",
+        "text-halo-width": 1.5,
+        "text-halo-blur": 1
+      }
     }
   ],
   "id": "openstreetmap"
