@@ -6230,6 +6230,7 @@
         "text-halo-color": "hsla(0, 0%, 100%, 0.8)",
         "text-halo-width": 0.8
       }
+
     },
     {
       "id": "1875_barn",
@@ -6255,3 +6256,4 @@
   ],
   "id": "openstreetmap"
 }
+
