@@ -11,16 +11,21 @@
   "pitch": 0,
   "sources": {
     "openmaptiles": {
-      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=bshGfp3eBy6tNNRM1zA5",
+      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL",
       "type": "vector"
+    },
+    "1875_poly": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/CEBerne/FletcherSt_storymap/main/map/sources/1875_chapter.geojson"
     }
   },
   "sprite": "https://api.maptiler.com/maps/openstreetmap/sprite",
-  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=bshGfp3eBy6tNNRM1zA5",
+  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=get_your_own_OpIi9ZULNHzrESv6T2vL",
   "layers": [
     {
       "id": "Background",
       "type": "background",
+      "filter": ["any"],
       "layout": {"visibility": "visible"},
       "paint": {"background-color": "hsl(40, 26%, 93%)"}
     },
@@ -6225,6 +6230,27 @@
         "text-halo-color": "hsla(0, 0%, 100%, 0.8)",
         "text-halo-width": 0.8
       }
+    },
+    {
+      "id": "1875_barn",
+      "type": "fill",
+      "source": "1875_poly",
+      "filter": ["all", ["==", "type", "red barn"]],
+      "paint": {"fill-color": "rgba(243, 13, 13, 1)"}
+    },
+    {
+      "id": "1875_house",
+      "type": "fill",
+      "source": "1875_poly",
+      "filter": ["all", ["==", "type", "Fletcher house"]],
+      "paint": {"fill-color": "rgba(164, 113, 88, 1)"}
+    },
+    {
+      "id": "1875_depot",
+      "type": "fill",
+      "source": "1875_poly",
+      "filter": ["all", ["==", "type", "Depot"]],
+      "paint": {"fill-color": "rgba(251, 236, 20, 1)"}
     }
   ],
   "id": "openstreetmap"
