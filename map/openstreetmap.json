@@ -17,6 +17,16 @@
     "1875_poly": {
       "type": "geojson",
       "data": "https://raw.githubusercontent.com/CEBerne/FletcherSt_storymap/main/map/sources/1875_chapter.geojson"
+    },
+    "1875_img": {
+      "type": "raster",
+      "tiles": [
+        "https://my-map-cogs.s3.us-east-2.amazonaws.com/tiles/{z}/{x}/{y}.png"
+      ],
+      "minzoom": 16,
+      "maxzoom": 18,
+      "scheme": "xyz",
+      "tileSize": 512
     }
   },
   "sprite": "https://api.maptiler.com/maps/openstreetmap/sprite",
@@ -6230,6 +6240,13 @@
         "text-halo-color": "hsla(0, 0%, 100%, 0.8)",
         "text-halo-width": 0.8
       }
+    },
+    {
+      "id": "1875_b",
+      "type": "raster",
+      "source": "1875_img",
+      "minzoom": 15,
+      "maxzoom": 20
     },
     {
       "id": "1875_barn",

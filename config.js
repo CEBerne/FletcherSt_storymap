@@ -98,7 +98,7 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
-            spinGlobe: true,
+            spinGlobe: false,
             mapInteractive: true,
             callback: '',
             onChapterEnter: [
