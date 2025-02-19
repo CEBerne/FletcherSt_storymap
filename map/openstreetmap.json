@@ -11,7 +11,7 @@
   "pitch": 0,
   "sources": {
     "openmaptiles": {
-      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=bshGfp3eBy6tNNRM1zA5",
+      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL",
       "type": "vector"
     },
     "1875_poly": {
@@ -20,7 +20,7 @@
     }
   },
   "sprite": "https://api.maptiler.com/maps/openstreetmap/sprite",
-  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=bshGfp3eBy6tNNRM1zA5",
+  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=get_your_own_OpIi9ZULNHzrESv6T2vL",
   "layers": [
     {
       "id": "Background",
@@ -6230,7 +6230,6 @@
         "text-halo-color": "hsla(0, 0%, 100%, 0.8)",
         "text-halo-width": 0.8
       }
-
     },
     {
       "id": "1875_barn",
@@ -6256,4 +6255,3 @@
   ],
   "id": "openstreetmap"
 }
-
