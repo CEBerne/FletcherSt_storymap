@@ -6297,7 +6297,9 @@
         "text-halo-color": "rgba(54, 54, 54, 1)",
         "text-halo-width": 1.5,
         "text-halo-blur": 1
-      }
+      },
+      "minzoom": 13,
+      "maxzoom": 18
     }
   ],
   "id": "openstreetmap"
