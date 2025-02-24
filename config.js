@@ -7,7 +7,7 @@ var config = {
     theme: 'dark',
     use3dTerrain: false, //set true for enabling 3D maps. You will need to provide your own terrain tiles.
     useCustomLayers: false, //set true for enabling custom layers from sources.js
-    bookmarks: true,
+    bookmarks: false,
     chapterReturn: true,
     auto: false,
     title: "The Evolution of Fletcher Street's Horse Stables",
