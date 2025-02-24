@@ -6304,14 +6304,20 @@
       "type": "fill",
       "source": "1888",
       "filter": ["all", ["==", "type", "Fletcher house"]],
-      "paint": {"fill-color": "rgba(164, 113, 88, 1)"}
+      "paint": {
+        "fill-color": "rgba(164, 113, 88, 1)",
+        "fill-opacity": 0
+      }
     },
     {
       "id": "1888_house2",
       "type": "fill",
       "source": "1888",
       "filter": ["all", ["==", "type", "house"]],
-      "paint": {"fill-color": "#e5b636"}
+      "paint": {
+        "fill-color": "#e5b636",
+        "fill-opacity": 0
+      }
     }
   ],
   "id": "openstreetmap"
