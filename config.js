@@ -109,12 +109,7 @@ var config = {
                  }
 
             ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
+            onChapterExit: []
         },
         {
             id: 'Chapter 2',
@@ -167,10 +162,10 @@ var config = {
             mapInteractive: true,
             callback: '',
             onChapterEnter: [
-            //     {
-            //         layer: 'pcwnet',
-            //         opacity: 1
-            //     }
+                 {
+                     layer: '1888_house2',
+                     opacity: 1
+                 }
             ],
             onChapterExit: []
         }, 
