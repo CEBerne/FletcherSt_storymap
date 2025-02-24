@@ -124,10 +124,10 @@ var config = {
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Fletcher_family_portraits.jpg',
             website: '<a href="https://ambler.temple.edu/" target="https://ambler.temple.edu/">Learn more</a>',
             //legend: '<span style="font-size: 0.85em;"><em>Legend content</em><br></span><img src="/images/legend1.png" style="display: block; margin-top: 10px; width: 100%; max-width: 200px;">',
-            description: 'Beloved by generations of Temple students for its scenic beauty and nationally acclaimed gardens, Temple’s Ambler Campus fosters a close-knit community of students and faculty. Ambler students enjoy the full range of services that the suburban campus of a world-class university provides.',
+            description: 'By 1880...Blurb about Fletcher Family TBD',
             location: {
-                center: [-75.19169, 40.16554],
-                zoom: 15.9,
+                center: [-75.17919, 39.99034],
+                zoom: 17.1,
                 pitch: 0,
                 bearing: 0
             },
