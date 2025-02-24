@@ -149,16 +149,15 @@ var config = {
            ]
         },
         {
-            id: 'chapter5',
-            alignment: 'right',
+            id: 'chapter3',
+            alignment: 'left',
             hidden: false,
-            title: 'Japan',
-            image: './images/image5.jpg',
-            website: '<a href="https://www.tuj.ac.jp/" target="https://www.tuj.ac.jp/">Website</a>', 
-            description: 'The Temple T flies proudly over this campus, which is the oldest and largest foreign university in Japan. Temple University, Japan Campus, takes pride in the top-quality, English-language education it offers. It also provides a unique opportunity for thousands of students from nearly 60 countries to earn American undergraduate and graduate degrees.',
+            title: '1888: 2613 W Fletcher Street appears on maps',
+            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Horace_house.jpg', 
+            description: 'Blurb about Horace Lederman and duration of tenure on block',
             location: {
-                center: [139.67390, 35.64250],
-                zoom: 12,
+                center: [-75.17919, 39.99034],
+                zoom: 17.1,
                 pitch: 0,
                 bearing: 0,
                 speed: 0.7
