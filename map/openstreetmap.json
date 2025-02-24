@@ -5,11 +5,15 @@
     "maptiler:copyright": "You are licensed to use the style or its derivate for serving map tiles exclusively with MapTiler Server or MapTiler Cloud and in accordance with their licenses and terms. If you plan to use the style in a different way, contact us at sales@maptiler.com.",
     "maputnik:renderer": "mlgljs"
   },
-  "center": [-99.78614, 39.74777],
+  "center": [2.8655946968546004, 22.80535462569901],
   "zoom": 0.7418741168636303,
   "bearing": 0,
   "pitch": 0,
   "sources": {
+    "1888": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/CEBerne/FletcherSt_storymap/main/map/sources/1888_chapter.geojson"
+    },
     "openmaptiles": {
       "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=bshGfp3eBy6tNNRM1zA5",
       "type": "vector"
@@ -23,11 +27,10 @@
       "tiles": [
         "https://my-map-cogs.s3.us-east-2.amazonaws.com/tiles/{z}/{x}/{y}.png"
       ],
-      "minzoom": 14,
+      "minzoom": 16,
       "maxzoom": 18,
       "scheme": "xyz",
-      "tileSize": 256,
-      "bounds": [-75.1895566, 39.9879230, -75.1729305, 39.9941765]
+      "tileSize": 256
     }
   },
   "sprite": "https://api.maptiler.com/maps/openstreetmap/sprite",
@@ -6247,7 +6250,9 @@
       "type": "raster",
       "source": "1875_img",
       "minzoom": 15,
-      "maxzoom": 20
+      "maxzoom": 20,
+      "layout": {"visibility": "visible"},
+      "paint": {"raster-opacity": 1}
     },
     {
       "id": "1875_barn",
@@ -6264,42 +6269,55 @@
       "paint": {"fill-color": "rgba(164, 113, 88, 1)"}
     },
     {
-      "id": "depot2",
-      "type": "line",
+      "id": "1875_depot",
+      "type": "fill",
       "source": "1875_poly",
-      "filter": [
-        "all",
-        ["==", "type", "Depot"]
-      ],
+      "filter": ["all", ["==", "type", "Depot"]],
       "paint": {
-        "line-color": "rgba(251, 236, 20, 1)",
-        "line-width": 6
+        "fill-outline-color": "rgba(251, 236, 20, 1)",
+        "fill-color": "rgba(170, 170, 170, 0)",
+        "fill-translate-anchor": "viewport"
       }
     },
     {
-      "id": "poly_ann",
-      "type": "symbol",
+      "id": "depot2",
+      "type": "line",
       "source": "1875_poly",
-      "filter": [
-        "all",
-        ["==", "type", "Depot"]
-      ],
-      "layout": {
-        "text-field": "Depot",
-        "text-size": 16,
-        "text-font": [
-          "Open Sans Regular",
-          "Arial Unicode MS Regular"
-        ]
-      },
+      "minzoom": 15,
+      "maxzoom": 22,
+      "filter": ["all", ["==", "type", "Depot"]],
       "paint": {
-        "text-color": "rgba(254, 255, 2, 1)",
-        "text-halo-color": "rgba(54, 54, 54, 1)",
-        "text-halo-width": 1.5,
-        "text-halo-blur": 1
-      },
-      "minzoom": 13,
-      "maxzoom": 18
+        "line-color": "rgba(251, 236, 20, 1)",
+        "line-width": 6,
+        "line-opacity": 1
+      }
+    },
+    {
+      "id": "1888_barn",
+      "type": "fill",
+      "source": "1888",
+      "filter": ["all", ["==", "type", "barn"]],
+      "paint": {"fill-color": "rgba(243, 13, 13, 1)"}
+    },
+    {
+      "id": "1888_house1",
+      "type": "fill",
+      "source": "1888",
+      "filter": ["all", ["==", "type", "Fletcher house"]],
+      "paint": {
+        "fill-color": "rgba(164, 113, 88, 1)",
+        "fill-opacity": 0
+      }
+    },
+    {
+      "id": "1888_house2",
+      "type": "fill",
+      "source": "1888",
+      "filter": ["all", ["==", "type", "house"]],
+      "paint": {
+        "fill-color": "#e5b636",
+        "fill-opacity": 0
+      }
     }
   ],
   "id": "openstreetmap"
