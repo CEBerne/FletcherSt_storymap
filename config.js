@@ -80,10 +80,10 @@ var config = {
             //onChapterExit: []
         },
         {
-            id: '1875',
+            id: 'Chapter 1',
             alignment: 'left',
             hidden: false,
-            title: '1875',
+            title: "Philadelphia's Public Transportation: The Horse-Drawn Streetcar (1858-1897)",
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/1883_Hexamer_Depot_in_detail.jpg',
             caption: 'Horse Car Depot',
             //website: '<a href="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd" target="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd">Historical map</a>',
@@ -117,7 +117,7 @@ var config = {
             ]
         },
         {
-            id: 'chapter2',
+            id: 'Chapter 2',
             alignment: 'left',
             hidden: false,
             title: 'The Fletcher Family',
@@ -149,7 +149,7 @@ var config = {
            ]
         },
         {
-            id: 'chapter3',
+            id: 'Chapter 3',
             alignment: 'left',
             hidden: false,
             title: '1888: 2613 W Fletcher Street appears on maps',
@@ -175,7 +175,7 @@ var config = {
             onChapterExit: []
         }, 
         {
-            id: 'chapter6',
+            id: 'Chapter 4',
             alignment: 'left',
             hidden: false,
             title: 'Rome',
