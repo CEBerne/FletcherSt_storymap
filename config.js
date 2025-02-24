@@ -178,7 +178,7 @@ var config = {
             id: 'Chapter 4',
             alignment: 'left',
             hidden: false,
-            title: 'Sarah Fletcher's passing (1901)',
+            title: "Sarah Fletcher's passing (1901)",
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Fletcher_graves.jpg',
             website: '', 
             description: '1899 son leaves her horse. 1902 House is sold - disappeares by 1910',
