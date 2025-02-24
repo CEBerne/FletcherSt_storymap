@@ -200,6 +200,141 @@ var config = {
             //     }
             ],
             onChapterExit: []
+        },
+          {
+            id: 'Chapter 5',
+            alignment: 'left',
+            hidden: false,
+            title: "Stables on Every Block!",
+            image: '',
+            website: '', 
+            description: 'As you can see from this 1922 Bromley map...',
+            location: {
+                center: [12.48254, 41.90687],
+                zoom: 12,
+                pitch: 0,
+                bearing: 0,
+                speed: 0.7
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            mapInteractive: true,
+            callback: '',
+            onChapterEnter: [
+            //     {
+            //         layer: 'pcwnet',
+            //         opacity: 1
+            //     }
+            ],
+            onChapterExit: []
+        },
+          {
+            id: 'Chapter 6',
+            alignment: 'left',
+            hidden: false,
+            title: "Horace's Horses get 'Rambunctious'",
+            image: '',
+            website: '', 
+            description: '',
+            location: {
+                center: [12.48254, 41.90687],
+                zoom: 12,
+                pitch: 0,
+                bearing: 0,
+                speed: 0.7
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            mapInteractive: true,
+            callback: '',
+            onChapterEnter: [
+            //     {
+            //         layer: 'pcwnet',
+            //         opacity: 1
+            //     }
+            ],
+            onChapterExit: []
+        },
+          {
+            id: 'Chapter 7',
+            alignment: 'left',
+            hidden: false,
+            title: "Mid-Century Changes",
+            image: '',
+            website: '', 
+            description: 'QGIS map of 1951 & 1967',
+            location: {
+                center: [12.48254, 41.90687],
+                zoom: 12,
+                pitch: 0,
+                bearing: 0,
+                speed: 0.7
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            mapInteractive: true,
+            callback: '',
+            onChapterEnter: [
+            //     {
+            //         layer: 'pcwnet',
+            //         opacity: 1
+            //     }
+            ],
+            onChapterExit: []
+        },
+          {
+            id: 'Chapter 8',
+            alignment: 'left',
+            hidden: false,
+            title: "Horace Lederman passes (1975)",
+            image: '',
+            website: '', 
+            description: '1899 son leaves her horse. 1902 House is sold - disappeares by 1910',
+            location: {
+                center: [12.48254, 41.90687],
+                zoom: 12,
+                pitch: 0,
+                bearing: 0,
+                speed: 0.7
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            mapInteractive: true,
+            callback: '',
+            onChapterEnter: [
+            //     {
+            //         layer: 'pcwnet',
+            //         opacity: 1
+            //     }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'Chapter 9',
+            alignment: 'left',
+            hidden: false,
+            title: "Stables in Pennypack Park",
+            image: '',
+            website: '', 
+            description: '',
+            location: {
+                center: [12.48254, 41.90687],
+                zoom: 12,
+                pitch: 0,
+                bearing: 0,
+                speed: 0.7
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            mapInteractive: true,
+            callback: '',
+            onChapterEnter: [
+            //     {
+            //         layer: 'pcwnet',
+            //         opacity: 1
+            //     }
+            ],
+            onChapterExit: []
         }
     ]
 };
