@@ -118,7 +118,7 @@ var config = {
         },
         {
             id: 'chapter2',
-            alignment: 'right',
+            alignment: 'left',
             hidden: false,
             title: 'The Fletcher Family',
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Fletcher_family_portraits.jpg',
