@@ -396,13 +396,13 @@ var config = {
             onChapterExit: []
         },
          {
-            id: 'Chapter 9',
+            id: 'Chapter 11',
             alignment: 'left',
             hidden: false,
-            title: "Stables in Pennypack Park",
-            image: '',
+            title: "From Pennypack Park to Brewerytown...El Dog relocates, again.",
+            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/El_Dog_in_Brewerytown.jpeg',
             website: '', 
-            description: 'From 1979-1982, the Boulevard Stablemates operated out of a former Mounted Police stable, offering horseback riding lessons to local children...',
+            description: "In the late 1980's and 1990's into the early 2000's, Ellis was forced to move his horses into abandoned warehouses in what was pre-gentrified Brewerytown...",
             location: {
                 center: [12.48254, 41.90687],
                 zoom: 12,
@@ -423,13 +423,13 @@ var config = {
             onChapterExit: []
         },
          {
-            id: 'Chapter 9',
+            id: 'Chapter 12',
             alignment: 'left',
             hidden: false,
-            title: "Stables in Pennypack Park",
+            title: "Fletcher Street in the 1990's",
             image: '',
             website: '', 
-            description: 'From 1979-1982, the Boulevard Stablemates operated out of a former Mounted Police stable, offering horseback riding lessons to local children...',
+            description: "Image from Ron Tarver's book to be added...",
             location: {
                 center: [12.48254, 41.90687],
                 zoom: 12,
