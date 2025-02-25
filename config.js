@@ -427,9 +427,9 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: "Fletcher Street in the 1990's",
-            image: '',
+            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Philadelphia_Inquirer_1999_article.jpg',
             website: '', 
-            description: "Image from Ron Tarver's book to be added...",
+            description: "Image from Ron Tarver's book to be added along with article photo...",
             location: {
                 center: [12.48254, 41.90687],
                 zoom: 12,
