@@ -267,7 +267,7 @@ var config = {
             title: "Horace's Horses get 'Rambunctious'",
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Phila_Inquirer_1945_article.jpg',
             website: '', 
-            description: "In 1945, the Philadelphia Inquirer published an article about a pinto pony who escaped Horace Lederman's stable at 2613 W Fletcher Street, causing a three block chase...",
+            description: "On July 16th 1945, the Philadelphia Inquirer published an article about a pinto pony who escaped Horace Lederman's stable at 2613 W Fletcher Street, causing a three block chase...",
             location: {
                 center: [12.48254, 41.90687],
                 zoom: 12,
