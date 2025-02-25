@@ -105,11 +105,16 @@ var config = {
                  {
                      layer: '1875_poly',
                      opacity: 1,
-                     duration: 5000
+                     duration: 300
                  }
 
             ],
-            onChapterExit: []
+            onChapterExit: [
+                {
+                    layer: '1875_poly',
+                    opacity: 0,
+                }
+            ]
         },
         {
             id: 'Chapter 2',
@@ -131,16 +136,16 @@ var config = {
             mapInteractive: true,
             callback: '',
             onChapterEnter: [
-                {
-                    layer: 'pcwnet',
-                    opacity: 1
-                }
+                //{
+                //   layer: 'pcwnet',
+                //    opacity: 1
+                //}
            ],
            onChapterExit: [
-               {
-                   layer: 'pcwnet',
-                   opacity: 0
-               }
+               //{
+               //    layer: 'pcwnet',
+               //    opacity: 0
+               //}
            ]
         },
         {
@@ -164,10 +169,42 @@ var config = {
             onChapterEnter: [
                  {
                      layer: '1888_house2',
-                     opacity: 1
-                 }
+                     opacity: 1, 
+                     duration: 300
+                 },
+                 {
+                    layer: '1875_b',
+                    opacity: 0, 
+                    duration: 300
+                }
             ],
-            onChapterExit: []
+            onChapterExit: [
+                {
+                    layer: '1888_house2',
+                    opacity: 0, 
+                },
+                {
+                    layer: '1875_barn',
+                    opacity: 0, 
+                },
+                {
+                    layer: '1875_depot',
+                    opacity: 0, 
+                },
+                {
+                    layer: '1888_barn',
+                    opacity: 0, 
+                },
+                {
+                    layer: '1888_house1',
+                    opacity: 0, 
+                },
+                {
+                    layer: '1875_house',
+                    opacity: 0, 
+                }
+
+            ]
         }, 
         {
             id: 'Chapter 4',
@@ -178,8 +215,8 @@ var config = {
             website: '', 
             description: '1899 son leaves her horse. 1902 House is sold - disappeares by 1910',
             location: {
-                center: [12.48254, 41.90687],
-                zoom: 12,
+                center: [-75.17919, 39.99034],
+                zoom: 17.1,
                 pitch: 0,
                 bearing: 0,
                 speed: 0.7
@@ -205,8 +242,8 @@ var config = {
             website: '', 
             description: 'As you can see from this 1922 Bromley map...',
             location: {
-                center: [12.48254, 41.90687],
-                zoom: 12,
+                center: [-75.17919, 39.99034],
+                zoom: 17.1,
                 pitch: 0,
                 bearing: 0,
                 speed: 0.7
