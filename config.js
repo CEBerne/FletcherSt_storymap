@@ -321,7 +321,7 @@ var config = {
             title: "Horace Lederman passes (1975)",
             image: '',
             website: '', 
-            description: '1899 son leaves her horse. 1902 House is sold - disappeares by 1910',
+            description: 'From 1923-1981 the Lederman family owned property on the 2600 block of W Fletcher Street, with space for horses...',
             location: {
                 center: [12.48254, 41.90687],
                 zoom: 12,
@@ -348,7 +348,7 @@ var config = {
             title: "Stables in Pennypack Park",
             image: '',
             website: '', 
-            description: '',
+            description: 'From 1979-1982, the Boulevard Stablemates operated out of a former Mounted Police stable, offering horseback riding lessons to local children...',
             location: {
                 center: [12.48254, 41.90687],
                 zoom: 12,
