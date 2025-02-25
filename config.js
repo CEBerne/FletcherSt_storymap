@@ -369,13 +369,13 @@ var config = {
             onChapterExit: []
         },
          {
-            id: 'Chapter 9',
+            id: 'Chapter 10',
             alignment: 'left',
             hidden: false,
-            title: "Stables in Pennypack Park",
-            image: '',
+            title: "Black (female) owner of horse stable, a first on Fletcher Street",
+            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Bertha_property_deed.jpg',
             website: '', 
-            description: 'From 1979-1982, the Boulevard Stablemates operated out of a former Mounted Police stable, offering horseback riding lessons to local children...',
+            description: "In 1986, Bertha Felder purchased the brick barn at 2603 W Fletcher Street...",
             location: {
                 center: [12.48254, 41.90687],
                 zoom: 12,
