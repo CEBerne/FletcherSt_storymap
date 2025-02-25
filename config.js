@@ -346,6 +346,87 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: "Stables in Pennypack Park",
+            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Pennypack_park_stable.png',
+            website: '', 
+            description: 'From 1979-1982, the Boulevard Stablemates operated out of a former Mounted Police stable, offering horseback riding lessons to local children...',
+            location: {
+                center: [12.48254, 41.90687],
+                zoom: 12,
+                pitch: 0,
+                bearing: 0,
+                speed: 0.7
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            mapInteractive: true,
+            callback: '',
+            onChapterEnter: [
+            //     {
+            //         layer: 'pcwnet',
+            //         opacity: 1
+            //     }
+            ],
+            onChapterExit: []
+        },
+         {
+            id: 'Chapter 9',
+            alignment: 'left',
+            hidden: false,
+            title: "Stables in Pennypack Park",
+            image: '',
+            website: '', 
+            description: 'From 1979-1982, the Boulevard Stablemates operated out of a former Mounted Police stable, offering horseback riding lessons to local children...',
+            location: {
+                center: [12.48254, 41.90687],
+                zoom: 12,
+                pitch: 0,
+                bearing: 0,
+                speed: 0.7
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            mapInteractive: true,
+            callback: '',
+            onChapterEnter: [
+            //     {
+            //         layer: 'pcwnet',
+            //         opacity: 1
+            //     }
+            ],
+            onChapterExit: []
+        },
+         {
+            id: 'Chapter 9',
+            alignment: 'left',
+            hidden: false,
+            title: "Stables in Pennypack Park",
+            image: '',
+            website: '', 
+            description: 'From 1979-1982, the Boulevard Stablemates operated out of a former Mounted Police stable, offering horseback riding lessons to local children...',
+            location: {
+                center: [12.48254, 41.90687],
+                zoom: 12,
+                pitch: 0,
+                bearing: 0,
+                speed: 0.7
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            mapInteractive: true,
+            callback: '',
+            onChapterEnter: [
+            //     {
+            //         layer: 'pcwnet',
+            //         opacity: 1
+            //     }
+            ],
+            onChapterExit: []
+        },
+         {
+            id: 'Chapter 9',
+            alignment: 'left',
+            hidden: false,
+            title: "Stables in Pennypack Park",
             image: '',
             website: '', 
             description: 'From 1979-1982, the Boulevard Stablemates operated out of a former Mounted Police stable, offering horseback riding lessons to local children...',
