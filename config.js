@@ -153,7 +153,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: "1888: 2613 W Fletcher Street appears on maps",
-            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Horace_house.jpg', 
+            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Just_Horaces_house.jpg', 
             description: 'Blurb about Horace Lederman and duration of tenure on block',
             location: {
                 center: [-75.17919, 39.99034],
