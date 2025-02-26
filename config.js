@@ -39,20 +39,62 @@ var config = {
             spinGlobe: false,
             mapInteractive: true,
             callback: '',
-            //onChapterEnter: [
-                 //{
-                   //  layer: '1875_poly',
-                  //   opacity: 1,
-                 //    duration: 5000
-                 //}
+            onChapterEnter: [
+                 {
+                     layer: '1875_b',
+                     opacity: 0,
+                 },
+                 {
+                    layer: '1875_barn',
+                    opacity: 0,
+                },
+                {
+                    layer: '1875_house',
+                    opacity: 0,
+                },
+                {
+                    layer: '1875_depot',
+                    opacity: 0,
+                },
+                {
+                    layer: 'depot2',
+                    opacity: 0,
+                },
+                {
+                    layer: '1888_barn',
+                    opacity: 0,
+                },
+                {
+                    layer: '1888_house1',
+                    opacity: 0,
+                },
+                {
+                    layer: '1888_house2',
+                    opacity: 0,
+                },
+                {
+                    layer: '1888',
+                    opacity: 0,
+                },
+                {
+                    layer: '1922',
+                    opacity: 0,
+                },
+                {
+                    layer: '1951',
+                    opacity: 0,
+                },
+                {
+                    layer: '1967',
+                    opacity: 0,
+                },
+                {
+                    layer: '1901',
+                    opacity: 0,
+                }
 
-            //],
-            //onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            //]
+            ],
+            onChapterExit: []
         },
         {
             id: 'intro',
@@ -76,8 +118,61 @@ var config = {
             spinGlobe: false,
             mapInteractive: true,
             callback: '',
-            //onChapterEnter: [],
-            //onChapterExit: []
+            onChapterEnter: [],
+            onChapterExit: [
+                {
+                    layer: '1875_b',
+                    opacity: 1,
+                },
+                {
+                   layer: '1875_barn',
+                   opacity: 1,
+               },
+               {
+                   layer: '1875_house',
+                   opacity: 1,
+               },
+               {
+                   layer: '1875_depot',
+                   opacity: 0,
+               },
+               {
+                   layer: 'depot2',
+                   opacity: 1,
+               },
+               {
+                   layer: '1888_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house1',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888',
+                   opacity: 0,
+               },
+               {
+                   layer: '1922',
+                   opacity: 0,
+               },
+               {
+                   layer: '1951',
+                   opacity: 0,
+               },
+               {
+                   layer: '1967',
+                   opacity: 0,
+               },
+               {
+                   layer: '1901',
+                   opacity: 0,
+               }
+            ]
         },
         {
             id: 'Chapter 1',
@@ -101,20 +196,8 @@ var config = {
             spinGlobe: true,
             mapInteractive: true,
             callback: '',
-            onChapterEnter: [
-                 {
-                     layer: '1875_poly',
-                     opacity: 1,
-                     duration: 300
-                 }
-
-            ],
-            onChapterExit: [
-                {
-                    layer: '1875_poly',
-                    opacity: 0,
-                }
-            ]
+            onChapterEnter: [],
+            onChapterExit: []
         },
         {
             id: 'Chapter 2',
@@ -135,17 +218,60 @@ var config = {
             rotateAnimation: false,
             mapInteractive: true,
             callback: '',
-            onChapterEnter: [
-                //{
-                //   layer: 'pcwnet',
-                //    opacity: 1
-                //}
-           ],
-           onChapterExit: [
-               //{
-               //    layer: 'pcwnet',
-               //    opacity: 0
-               //}
+            onChapterEnter: [],
+            onChapterExit: [
+            {
+                layer: '1875_b',
+                opacity: 0,
+            },
+            {
+               layer: '1875_barn',
+               opacity: 0,
+           },
+           {
+               layer: '1875_house',
+               opacity: 0,
+           },
+           {
+               layer: '1875_depot',
+               opacity: 0,
+           },
+           {
+               layer: 'depot2',
+               opacity: 0,
+           },
+           {
+               layer: '1888_barn',
+               opacity: 0,
+           },
+           {
+               layer: '1888_house1',
+               opacity: 0,
+           },
+           {
+               layer: '1888_house2',
+               opacity: 0,
+           },
+           {
+               layer: '1888',
+               opacity: 1,
+           },
+           {
+               layer: '1922',
+               opacity: 0,
+           },
+           {
+               layer: '1951',
+               opacity: 0,
+           },
+           {
+               layer: '1967',
+               opacity: 0,
+           },
+           {
+               layer: '1901',
+               opacity: 0,
+           }
            ]
         },
         {
@@ -166,43 +292,62 @@ var config = {
             rotateAnimation: false,
             mapInteractive: true,
             callback: '',
-            onChapterEnter: [
-                 {
-                     layer: '1888_house2',
-                     opacity: 1, 
-                     duration: 300
-                 },
-                 {
-                    layer: '1875_b',
-                    opacity: 0, 
-                    duration: 300
-                }
+            onChapterEnter: [  
+
             ],
             onChapterExit: [
                 {
-                    layer: '1888_house2',
-                    opacity: 0, 
+                    layer: '1875_b',
+                    opacity: 0,
                 },
                 {
-                    layer: '1875_barn',
-                    opacity: 0, 
-                },
-                {
-                    layer: '1875_depot',
-                    opacity: 0, 
-                },
-                {
-                    layer: '1888_barn',
-                    opacity: 0, 
-                },
-                {
-                    layer: '1888_house1',
-                    opacity: 0, 
-                },
-                {
-                    layer: '1875_house',
-                    opacity: 0, 
-                }
+                   layer: '1875_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_house',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_depot',
+                   opacity: 0,
+               },
+               {
+                   layer: 'depot2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house1',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888',
+                   opacity: 0,
+               },
+               {
+                   layer: '1922',
+                   opacity: 0,
+               },
+               {
+                   layer: '1951',
+                   opacity: 0,
+               },
+               {
+                   layer: '1967',
+                   opacity: 0,
+               },
+               {
+                   layer: '1901',
+                   opacity: 1,
+               }
 
             ]
         }, 
@@ -225,13 +370,61 @@ var config = {
             rotateAnimation: false,
             mapInteractive: true,
             callback: '',
-            onChapterEnter: [
-            //     {
-            //         layer: 'pcwnet',
-            //         opacity: 1
-            //     }
-            ],
-            onChapterExit: []
+            onChapterEnter: [],
+            onChapterExit: [
+                {
+                    layer: '1875_b',
+                    opacity: 0,
+                },
+                {
+                   layer: '1875_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_house',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_depot',
+                   opacity: 0,
+               },
+               {
+                   layer: 'depot2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house1',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888',
+                   opacity: 0,
+               },
+               {
+                   layer: '1922',
+                   opacity: 1,
+               },
+               {
+                   layer: '1951',
+                   opacity: 0,
+               },
+               {
+                   layer: '1967',
+                   opacity: 0,
+               },
+               {
+                   layer: '1901',
+                   opacity: 0,
+               }
+            ]
         },
           {
             id: 'Chapter 5',
@@ -252,13 +445,61 @@ var config = {
             rotateAnimation: false,
             mapInteractive: true,
             callback: '',
-            onChapterEnter: [
-            //     {
-            //         layer: 'pcwnet',
-            //         opacity: 1
-            //     }
-            ],
-            onChapterExit: []
+            onChapterEnter: [],
+            onChapterExit: [
+                {
+                    layer: '1875_b',
+                    opacity: 0,
+                },
+                {
+                   layer: '1875_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_house',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_depot',
+                   opacity: 0,
+               },
+               {
+                   layer: 'depot2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house1',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888',
+                   opacity: 0,
+               },
+               {
+                   layer: '1922',
+                   opacity: 0,
+               },
+               {
+                   layer: '1951',
+                   opacity: 0,
+               },
+               {
+                   layer: '1967',
+                   opacity: 0,
+               },
+               {
+                   layer: '1901',
+                   opacity: 0,
+               }
+            ]
         },
           {
             id: 'Chapter 6',
@@ -269,8 +510,8 @@ var config = {
             website: '', 
             description: "On July 16th 1945, the Philadelphia Inquirer published an article about a pinto pony who escaped Horace Lederman's stable at 2613 W Fletcher Street, causing a three block chase...",
             location: {
-                center: [12.48254, 41.90687],
-                zoom: 12,
+                center: [-75.17919, 39.99034],
+                zoom: 17.1,
                 pitch: 0,
                 bearing: 0,
                 speed: 0.7
@@ -296,8 +537,8 @@ var config = {
             website: '', 
             description: 'QGIS map of 1951 & 1967',
             location: {
-                center: [12.48254, 41.90687],
-                zoom: 12,
+                center: [-75.17919, 39.99034],
+                zoom: 17.1,
                 pitch: 0,
                 bearing: 0,
                 speed: 0.7
@@ -323,8 +564,8 @@ var config = {
             website: '', 
             description: 'From 1923-1981 the Lederman family owned property on the 2600 block of W Fletcher Street, with space for horses...',
             location: {
-                center: [12.48254, 41.90687],
-                zoom: 12,
+                center: [-75.17919, 39.99034],
+                zoom: 17.1,
                 pitch: 0,
                 bearing: 0,
                 speed: 0.7
@@ -350,8 +591,8 @@ var config = {
             website: '', 
             description: 'From 1979-1982, the Boulevard Stablemates operated out of a former Mounted Police stable, offering horseback riding lessons to local children...',
             location: {
-                center: [12.48254, 41.90687],
-                zoom: 12,
+                center: [-75.17919, 39.99034],
+                zoom: 17.1,
                 pitch: 0,
                 bearing: 0,
                 speed: 0.7
@@ -377,8 +618,8 @@ var config = {
             website: '', 
             description: "In 1986, Bertha Felder purchased the brick barn at 2603 W Fletcher Street...",
             location: {
-                center: [12.48254, 41.90687],
-                zoom: 12,
+                center: [-75.17919, 39.99034],
+                zoom: 17.1,
                 pitch: 0,
                 bearing: 0,
                 speed: 0.7
@@ -404,8 +645,8 @@ var config = {
             website: '', 
             description: "In the late 1980's and 1990's into the early 2000's, Ellis was forced to move his horses into abandoned warehouses in what was pre-gentrified Brewerytown...",
             location: {
-                center: [12.48254, 41.90687],
-                zoom: 12,
+                center: [-75.17919, 39.99034],
+                zoom: 17.1,
                 pitch: 0,
                 bearing: 0,
                 speed: 0.7
@@ -431,8 +672,8 @@ var config = {
             website: '', 
             description: "Image from Ron Tarver's book to be added along with article photo...",
             location: {
-                center: [12.48254, 41.90687],
-                zoom: 12,
+                center: [-75.17919, 39.99034],
+                zoom: 17.1,
                 pitch: 0,
                 bearing: 0,
                 speed: 0.7

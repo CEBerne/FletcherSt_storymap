@@ -71,6 +71,16 @@
       "maxzoom": 20,
       "scheme": "xyz",
       "tileSize": 256
+    },
+    "1901_i": {
+      "type": "raster",
+      "tiles": [
+        "https://my-map-cogs.s3.us-east-2.amazonaws.com/1901tiles/{z}/{x}/{y}.png"
+      ],
+      "minzoom": 16,
+      "maxzoom": 20,
+      "scheme": "xyz",
+      "tileSize": 256
     }
   },
   "sprite": "https://api.maptiler.com/maps/openstreetmap/sprite",
@@ -6338,7 +6348,7 @@
       "type": "fill",
       "source": "1888",
       "filter": ["all", ["==", "type", "barn"]],
-      "layout": {"visibility": "none"},
+      "layout": {"visibility": "visible"},
       "paint": {"fill-color": "rgba(243, 13, 13, 1)"}
     },
     {
@@ -6346,7 +6356,7 @@
       "type": "fill",
       "source": "1888",
       "filter": ["all", ["==", "type", "Fletcher house"]],
-      "layout": {"visibility": "none"},
+      "layout": {"visibility": "visible"},
       "paint": {"fill-color": "rgba(164, 113, 88, 1)", "fill-opacity": 0}
     },
     {
@@ -6354,32 +6364,43 @@
       "type": "fill",
       "source": "1888",
       "filter": ["all", ["==", "type", "house"]],
-      "layout": {"visibility": "none"},
+      "layout": {"visibility": "visible"},
       "paint": {"fill-color": "#ca795c", "fill-opacity": 0}
     },
     {
       "id": "1888",
       "type": "raster",
       "source": "1888_i",
-      "layout": {"visibility": "none"}
+      "layout": {"visibility": "visible"},
+      "paint": {"raster-opacity": 1}
     },
     {
       "id": "1922",
       "type": "raster",
       "source": "1922_i",
-      "layout": {"visibility": "none"}
+      "layout": {"visibility": "visible"},
+      "paint": {"raster-opacity": 1}
     },
     {
       "id": "1951",
       "type": "raster",
       "source": "1951_i",
-      "layout": {"visibility": "none"}
+      "layout": {"visibility": "visible"},
+      "paint": {"raster-opacity": 1}
     },
     {
       "id": "1967",
       "type": "raster",
       "source": "1967_i",
-      "layout": {"visibility": "none"}
+      "layout": {"visibility": "visible"},
+      "paint": {"raster-opacity": 1}
+    },
+    {
+      "id": "1901",
+      "type": "raster",
+      "source": "1901_i",
+      "layout": {"visibility": "visible"},
+      "paint": {"raster-opacity": 1}
     }
   ],
   "id": "openstreetmap"
