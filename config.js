@@ -107,6 +107,10 @@ var config = {
                 {
                     layer: '1994',
                     opacity: 0,
+                },
+                {
+                    layer: '2023',
+                    opacity: 0,
                 }
             ],
             onChapterExit: []
@@ -201,6 +205,10 @@ var config = {
                 },
                 {
                     layer: '1994',
+                    opacity: 0,
+                },
+                {
+                    layer: '2023',
                     opacity: 0,
                 }
             ]
@@ -318,6 +326,10 @@ var config = {
             {
                 layer: '1994',
                 opacity: 0,
+            },
+            {
+                layer: '2023',
+                opacity: 0,
             }
            ]
         },
@@ -410,6 +422,10 @@ var config = {
                 {
                     layer: '1994',
                     opacity: 0,
+                },
+                {
+                    layer: '2023',
+                    opacity: 0,
                 }
             ]
         }, 
@@ -501,6 +517,10 @@ var config = {
                 {
                     layer: '1994',
                     opacity: 0,
+                },
+                {
+                    layer: '2023',
+                    opacity: 0,
                 }
             ]
         },
@@ -591,6 +611,10 @@ var config = {
                 },
                 {
                     layer: '1994',
+                    opacity: 0,
+                },
+                {
+                    layer: '2023',
                     opacity: 0,
                 }
             ]
@@ -705,6 +729,10 @@ var config = {
                 {
                     layer: '1994',
                     opacity: 0,
+                },
+                {
+                    layer: '2023',
+                    opacity: 0,
                 }
             ]
         },
@@ -795,6 +823,10 @@ var config = {
                 },
                 {
                     layer: '1994',
+                    opacity: 0,
+                },
+                {
+                    layer: '2023',
                     opacity: 0,
                 }
             ]
@@ -887,6 +919,10 @@ var config = {
                 {
                     layer: '1994',
                     opacity: 0,
+                },
+                {
+                    layer: '2023',
+                    opacity: 0,
                 }
             ]
         },
@@ -978,6 +1014,10 @@ var config = {
                 {
                     layer: '1994',
                     opacity: 1,
+                },
+                {
+                    layer: '2023',
+                    opacity: 0,
                 }
             ]
         },
@@ -1069,6 +1109,10 @@ var config = {
                 {
                     layer: '1994',
                     opacity: 0,
+                },
+                {
+                    layer: '2023',
+                    opacity: 0,
                 }
             ]
         },
@@ -1118,13 +1162,81 @@ var config = {
             rotateAnimation: false,
             mapInteractive: true,
             callback: '',
-            onChapterEnter: [
-            //     {
-            //         layer: 'pcwnet',
-            //         opacity: 1
-            //     }
-            ],
-            onChapterExit: []
+            onChapterEnter: [],
+            onChapterExit: [
+                {
+                    layer: '1875_b',
+                    opacity: 0,
+                },
+                {
+                   layer: '1875_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_house',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_depot',
+                   opacity: 0,
+               },
+               {
+                   layer: 'depot2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house1',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888',
+                   opacity: 0,
+               },
+               {
+                   layer: '1922',
+                   opacity: 0,
+               },
+               {
+                   layer: '1951',
+                   opacity: 0,
+               },
+               {
+                   layer: '1967',
+                   opacity: 0,
+               },
+               {
+                   layer: '1901',
+                   opacity: 0,
+               },
+               {
+                layer: '1976',
+                opacity: 0,
+               },
+               {
+                layer: '1981',
+                opacity: 0,
+               },
+               {
+                layer: '1987',
+                opacity: 0,
+                },
+                {
+                    layer: '1994',
+                    opacity: 0,
+                },
+                {
+                    layer: '2023',
+                    opacity: 1,
+                }
+            ]
         },
          {
             id: 'Chapter 14',
@@ -1135,8 +1247,8 @@ var config = {
             website: '', 
             description: "<iframe src="https://drive.google.com/file/d/1pMBVU9359srmuA5073mPrl3mzkCnH5Lu/preview" width="640" height="480" allow="autoplay"></iframe>",
             location: {
-                center: [-75.17919, 39.99034],
-                zoom: 17.1,
+                center: [-75.19132, 39.97952],
+                zoom: 16,
                 pitch: 0,
                 bearing: 0,
                 speed: 0.7

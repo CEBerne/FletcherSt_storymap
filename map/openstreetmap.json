@@ -121,6 +121,16 @@
       "maxzoom": 19,
       "scheme": "xyz",
       "tileSize": 256
+    },
+    "2023_i": {
+      "type": "raster",
+      "tiles": [
+        "https://my-map-cogs.s3.us-east-2.amazonaws.com/2023tiles/{z}/{x}/{y}.png"
+      ],
+      "minzoom": 15,
+      "maxzoom": 19,
+      "scheme": "xyz",
+      "tileSize": 256
     }
   },
   "sprite": "https://api.maptiler.com/maps/openstreetmap/sprite",
@@ -6467,6 +6477,13 @@
       "id": "1994",
       "type": "raster",
       "source": "1994_i",
+      "layout": {"visibility": "visible"},
+      "paint": {"raster-opacity": 1}
+    },
+    {
+      "id": "2023",
+      "type": "raster",
+      "source": "2023_i",
       "layout": {"visibility": "visible"},
       "paint": {"raster-opacity": 1}
     }
