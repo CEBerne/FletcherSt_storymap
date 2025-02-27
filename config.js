@@ -103,6 +103,10 @@ var config = {
                 {
                     layer: '1987',
                     opacity: 0,
+                },
+                {
+                    layer: '1994',
+                    opacity: 0,
                 }
             ],
             onChapterExit: []
@@ -194,6 +198,10 @@ var config = {
                {
                 layer: '1987',
                 opacity: 0,
+                },
+                {
+                    layer: '1994',
+                    opacity: 0,
                 }
             ]
         },
@@ -306,6 +314,10 @@ var config = {
            {
             layer: '1987',
             opacity: 0,
+            },
+            {
+                layer: '1994',
+                opacity: 0,
             }
            ]
         },
@@ -394,6 +406,10 @@ var config = {
                {
                 layer: '1987',
                 opacity: 0,
+                },
+                {
+                    layer: '1994',
+                    opacity: 0,
                 }
             ]
         }, 
@@ -481,6 +497,10 @@ var config = {
                {
                 layer: '1987',
                 opacity: 0,
+                },
+                {
+                    layer: '1994',
+                    opacity: 0,
                 }
             ]
         },
@@ -568,6 +588,10 @@ var config = {
                {
                 layer: '1987',
                 opacity: 0,
+                },
+                {
+                    layer: '1994',
+                    opacity: 0,
                 }
             ]
         },
@@ -677,6 +701,10 @@ var config = {
                {
                 layer: '1987',
                 opacity: 0,
+                },
+                {
+                    layer: '1994',
+                    opacity: 0,
                 }
             ]
         },
@@ -764,6 +792,10 @@ var config = {
                {
                 layer: '1987',
                 opacity: 0,
+                },
+                {
+                    layer: '1994',
+                    opacity: 0,
                 }
             ]
         },
@@ -851,6 +883,10 @@ var config = {
                {
                 layer: '1987',
                 opacity: 1,
+                },
+                {
+                    layer: '1994',
+                    opacity: 0,
                 }
             ]
         },
@@ -874,7 +910,76 @@ var config = {
             mapInteractive: true,
             callback: '',
             onChapterEnter: [],
-            onChapterExit: []
+            onChapterExit: [
+                {
+                    layer: '1875_b',
+                    opacity: 0,
+                },
+                {
+                   layer: '1875_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_house',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_depot',
+                   opacity: 0,
+               },
+               {
+                   layer: 'depot2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house1',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888',
+                   opacity: 0,
+               },
+               {
+                   layer: '1922',
+                   opacity: 0,
+               },
+               {
+                   layer: '1951',
+                   opacity: 0,
+               },
+               {
+                   layer: '1967',
+                   opacity: 0,
+               },
+               {
+                   layer: '1901',
+                   opacity: 0,
+               },
+               {
+                layer: '1976',
+                opacity: 0,
+               },
+               {
+                layer: '1981',
+                opacity: 0,
+               },
+               {
+                layer: '1987',
+                opacity: 0,
+                },
+                {
+                    layer: '1994',
+                    opacity: 1,
+                }
+            ]
         },
          {
             id: 'Chapter 11',
@@ -885,8 +990,8 @@ var config = {
             website: '', 
             description: "In the late 1980's and 1990's into the early 2000's, Ellis was forced to move his horses into abandoned warehouses in what was pre-gentrified Brewerytown...",
             location: {
-                center: [-75.17919, 39.99034],
-                zoom: 17.1,
+                center: [-75.18835, 39.97943],
+                zoom: 16.8,
                 pitch: 0,
                 bearing: 0,
                 speed: 0.7
@@ -895,13 +1000,77 @@ var config = {
             rotateAnimation: false,
             mapInteractive: true,
             callback: '',
-            onChapterEnter: [
-            //     {
-            //         layer: 'pcwnet',
-            //         opacity: 1
-            //     }
-            ],
-            onChapterExit: []
+            onChapterEnter: [],
+            onChapterExit: [
+                {
+                    layer: '1875_b',
+                    opacity: 0,
+                },
+                {
+                   layer: '1875_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_house',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_depot',
+                   opacity: 0,
+               },
+               {
+                   layer: 'depot2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house1',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888',
+                   opacity: 0,
+               },
+               {
+                   layer: '1922',
+                   opacity: 0,
+               },
+               {
+                   layer: '1951',
+                   opacity: 0,
+               },
+               {
+                   layer: '1967',
+                   opacity: 0,
+               },
+               {
+                   layer: '1901',
+                   opacity: 0,
+               },
+               {
+                layer: '1976',
+                opacity: 0,
+               },
+               {
+                layer: '1981',
+                opacity: 0,
+               },
+               {
+                layer: '1987',
+                opacity: 0,
+                },
+                {
+                    layer: '1994',
+                    opacity: 0,
+                }
+            ]
         },
          {
             id: 'Chapter 12',
