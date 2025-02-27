@@ -81,7 +81,18 @@
       "maxzoom": 20,
       "scheme": "xyz",
       "tileSize": 256
+    },
+    "1976_i": {
+      "type": "raster",
+      "tiles": [
+        "https://my-map-cogs.s3.us-east-2.amazonaws.com/1976tiles/{z}/{x}/{y}.png"
+      ],
+      "minzoom": 16,
+      "maxzoom": 20,
+      "scheme": "xyz",
+      "tileSize": 256
     }
+
   },
   "sprite": "https://api.maptiler.com/maps/openstreetmap/sprite",
   "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=bshGfp3eBy6tNNRM1zA5",
@@ -6399,6 +6410,13 @@
       "id": "1901",
       "type": "raster",
       "source": "1901_i",
+      "layout": {"visibility": "visible"},
+      "paint": {"raster-opacity": 1}
+    },
+    {
+      "id": "1976",
+      "type": "raster",
+      "source": "1976_i",
       "layout": {"visibility": "visible"},
       "paint": {"raster-opacity": 1}
     }

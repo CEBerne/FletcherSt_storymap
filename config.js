@@ -91,7 +91,12 @@ var config = {
                 {
                     layer: '1901',
                     opacity: 0,
+                },
+                {
+                    layer: '1976',
+                    opacity: 0,
                 }
+
 
             ],
             onChapterExit: []
@@ -171,6 +176,10 @@ var config = {
                {
                    layer: '1901',
                    opacity: 0,
+               },
+               {
+                layer: '1976',
+                opacity: 0,
                }
             ]
         },
@@ -271,6 +280,10 @@ var config = {
            {
                layer: '1901',
                opacity: 0,
+           },
+           {
+            layer: '1976',
+            opacity: 0,
            }
            ]
         },
@@ -347,6 +360,10 @@ var config = {
                {
                    layer: '1901',
                    opacity: 1,
+               },
+               {
+                layer: '1976',
+                opacity: 0,
                }
 
             ]
@@ -423,6 +440,10 @@ var config = {
                {
                    layer: '1901',
                    opacity: 0,
+               },
+               {
+                layer: '1976',
+                opacity: 0,
                }
             ]
         },
@@ -498,6 +519,10 @@ var config = {
                {
                    layer: '1901',
                    opacity: 0,
+               },
+               {
+                layer: '1976',
+                opacity: 0,
                }
             ]
         },
@@ -542,13 +567,65 @@ var config = {
             rotateAnimation: false,
             mapInteractive: true,
             callback: '',
-            onChapterEnter: [
-            //     {
-            //         layer: 'pcwnet',
-            //         opacity: 1
-            //     }
-            ],
-            onChapterExit: []
+            onChapterEnter: [],
+            onChapterExit: [
+                {
+                    layer: '1875_b',
+                    opacity: 0,
+                },
+                {
+                   layer: '1875_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_house',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_depot',
+                   opacity: 0,
+               },
+               {
+                   layer: 'depot2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house1',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888',
+                   opacity: 0,
+               },
+               {
+                   layer: '1922',
+                   opacity: 0,
+               },
+               {
+                   layer: '1951',
+                   opacity: 0,
+               },
+               {
+                   layer: '1967',
+                   opacity: 0,
+               },
+               {
+                   layer: '1901',
+                   opacity: 0,
+               },
+               {
+                layer: '1976',
+                opacity: 1,
+               }
+            ]
         },
           {
             id: 'Chapter 8',
@@ -559,8 +636,8 @@ var config = {
             website: '', 
             description: 'From 1923-1981 the Lederman family owned property on the 2600 block of W Fletcher Street, with space for horses...',
             location: {
-                center: [-75.17919, 39.99034],
-                zoom: 17.1,
+                center: [-75.17720, 39.98982],
+                zoom: 17.6,
                 pitch: 0,
                 bearing: 0,
                 speed: 0.7
