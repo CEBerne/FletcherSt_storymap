@@ -657,7 +657,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: "Horace Lederman passes (1975)",
-            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Horace_obits.jpg',
+            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Horace_obits_cropped.png',
             website: '', 
             description: 'From 1923-1981 the Lederman family owned property on the 2600 block of W Fletcher Street, with space for horses...',
             location: {
