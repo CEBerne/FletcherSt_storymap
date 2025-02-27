@@ -433,7 +433,7 @@ var config = {
             title: "Stables on Every Block!",
             image: '',
             website: '', 
-            description: 'As you can see from this 1922 Bromley map...',
+            description: '',
             location: {
                 center: [-75.17919, 39.99034],
                 zoom: 17.1,
@@ -489,7 +489,7 @@ var config = {
                },
                {
                    layer: '1951',
-                   opacity: 0,
+                   opacity: 1,
                },
                {
                    layer: '1967',
@@ -510,8 +510,8 @@ var config = {
             website: '', 
             description: "On July 16th 1945, the Philadelphia Inquirer published an article about a pinto pony who escaped Horace Lederman's stable at 2613 W Fletcher Street, causing a three block chase...",
             location: {
-                center: [-75.17919, 39.99034],
-                zoom: 17.1,
+                center: [-75.17642, 39.98979],
+                zoom: 17.6,
                 pitch: 0,
                 bearing: 0,
                 speed: 0.7
@@ -520,22 +520,17 @@ var config = {
             rotateAnimation: false,
             mapInteractive: true,
             callback: '',
-            onChapterEnter: [
-            //     {
-            //         layer: 'pcwnet',
-            //         opacity: 1
-            //     }
-            ],
+            onChapterEnter: [],
             onChapterExit: []
         },
           {
             id: 'Chapter 7',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
             title: "Mid-Century Changes",
             image: '',
             website: '', 
-            description: 'QGIS map of 1951 & 1967',
+            description: '<iframe width="100%" height="800px" src="https://felipevaldez.com/slide1951_1967/" frameborder="0" scrolling="no"></iframe>',
             location: {
                 center: [-75.17919, 39.99034],
                 zoom: 17.1,
