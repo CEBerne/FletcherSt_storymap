@@ -99,6 +99,10 @@ var config = {
                 {
                     layer: '1981',
                     opacity: 0,
+                },
+                {
+                    layer: '1987',
+                    opacity: 0,
                 }
             ],
             onChapterExit: []
@@ -186,7 +190,11 @@ var config = {
                {
                 layer: '1981',
                 opacity: 0,
-               }
+               },
+               {
+                layer: '1987',
+                opacity: 0,
+                }
             ]
         },
         {
@@ -294,7 +302,11 @@ var config = {
            {
             layer: '1981',
             opacity: 0,
-           }
+           },
+           {
+            layer: '1987',
+            opacity: 0,
+            }
            ]
         },
         {
@@ -378,7 +390,11 @@ var config = {
                {
                 layer: '1981',
                 opacity: 0,
-               }
+               },
+               {
+                layer: '1987',
+                opacity: 0,
+                }
             ]
         }, 
         {
@@ -461,7 +477,11 @@ var config = {
                {
                 layer: '1981',
                 opacity: 0,
-               }
+               },
+               {
+                layer: '1987',
+                opacity: 0,
+                }
             ]
         },
           {
@@ -544,7 +564,11 @@ var config = {
                {
                 layer: '1981',
                 opacity: 0,
-               }
+               },
+               {
+                layer: '1987',
+                opacity: 0,
+                }
             ]
         },
           {
@@ -649,7 +673,11 @@ var config = {
                {
                 layer: '1981',
                 opacity: 0,
-               }
+               },
+               {
+                layer: '1987',
+                opacity: 0,
+                }
             ]
         },
           {
@@ -732,7 +760,11 @@ var config = {
                {
                 layer: '1981',
                 opacity: 1,
-               }
+               },
+               {
+                layer: '1987',
+                opacity: 0,
+                }
             ]
         },
         {
@@ -815,7 +847,11 @@ var config = {
                {
                 layer: '1981',
                 opacity: 0,
-               }
+               },
+               {
+                layer: '1987',
+                opacity: 1,
+                }
             ]
         },
          {
@@ -827,7 +863,7 @@ var config = {
             website: '', 
             description: "In 1986, Bertha Felder purchased the brick barn at 2603 W Fletcher Street...",
             location: {
-                center: [-75.17919, 39.99034],
+                center: [-75.17716, 39.99014],
                 zoom: 17.1,
                 pitch: 0,
                 bearing: 0,
