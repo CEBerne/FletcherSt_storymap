@@ -1133,7 +1133,7 @@ var config = {
             title: "Fletcher Street Urban Riding Club gifted new stable in the park",
             image: '',
             website: '', 
-            description: "video of ribbob cutting",
+            description: "<iframe src="https://drive.google.com/file/d/1pMBVU9359srmuA5073mPrl3mzkCnH5Lu/preview" width="640" height="480" allow="autoplay"></iframe>",
             location: {
                 center: [-75.17919, 39.99034],
                 zoom: 17.1,
