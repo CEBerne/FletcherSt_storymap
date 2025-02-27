@@ -95,9 +95,11 @@ var config = {
                 {
                     layer: '1976',
                     opacity: 0,
+                },
+                {
+                    layer: '1981',
+                    opacity: 0,
                 }
-
-
             ],
             onChapterExit: []
         },
@@ -179,6 +181,10 @@ var config = {
                },
                {
                 layer: '1976',
+                opacity: 0,
+               },
+               {
+                layer: '1981',
                 opacity: 0,
                }
             ]
@@ -284,6 +290,10 @@ var config = {
            {
             layer: '1976',
             opacity: 0,
+           },
+           {
+            layer: '1981',
+            opacity: 0,
            }
            ]
         },
@@ -364,8 +374,11 @@ var config = {
                {
                 layer: '1976',
                 opacity: 0,
+               },
+               {
+                layer: '1981',
+                opacity: 0,
                }
-
             ]
         }, 
         {
@@ -444,6 +457,10 @@ var config = {
                {
                 layer: '1976',
                 opacity: 0,
+               },
+               {
+                layer: '1981',
+                opacity: 0,
                }
             ]
         },
@@ -452,7 +469,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: "Stables on Every Block!",
-            image: '',
+            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/1920s_1930s_horses_in_Philly.jpg',
             website: '', 
             description: '',
             location: {
@@ -522,6 +539,10 @@ var config = {
                },
                {
                 layer: '1976',
+                opacity: 0,
+               },
+               {
+                layer: '1981',
                 opacity: 0,
                }
             ]
@@ -624,6 +645,10 @@ var config = {
                {
                 layer: '1976',
                 opacity: 1,
+               },
+               {
+                layer: '1981',
+                opacity: 0,
                }
             ]
         },
@@ -646,13 +671,69 @@ var config = {
             rotateAnimation: false,
             mapInteractive: true,
             callback: '',
-            onChapterEnter: [
-            //     {
-            //         layer: 'pcwnet',
-            //         opacity: 1
-            //     }
-            ],
-            onChapterExit: []
+            onChapterEnter: [],
+            onChapterExit: [
+                {
+                    layer: '1875_b',
+                    opacity: 0,
+                },
+                {
+                   layer: '1875_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_house',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_depot',
+                   opacity: 0,
+               },
+               {
+                   layer: 'depot2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house1',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888',
+                   opacity: 0,
+               },
+               {
+                   layer: '1922',
+                   opacity: 0,
+               },
+               {
+                   layer: '1951',
+                   opacity: 0,
+               },
+               {
+                   layer: '1967',
+                   opacity: 0,
+               },
+               {
+                   layer: '1901',
+                   opacity: 0,
+               },
+               {
+                layer: '1976',
+                opacity: 0,
+               },
+               {
+                layer: '1981',
+                opacity: 1,
+               }
+            ]
         },
         {
             id: 'Chapter 9',
@@ -663,8 +744,8 @@ var config = {
             website: '', 
             description: 'From 1979-1982, the Boulevard Stablemates operated out of a former Mounted Police stable, offering horseback riding lessons to local children...',
             location: {
-                center: [-75.17919, 39.99034],
-                zoom: 17.1,
+                center: [-75.03951, 40.06621],
+                zoom: 16,
                 pitch: 0,
                 bearing: 0,
                 speed: 0.7
@@ -673,13 +754,69 @@ var config = {
             rotateAnimation: false,
             mapInteractive: true,
             callback: '',
-            onChapterEnter: [
-            //     {
-            //         layer: 'pcwnet',
-            //         opacity: 1
-            //     }
-            ],
-            onChapterExit: []
+            onChapterEnter: [],
+            onChapterExit: [
+                {
+                    layer: '1875_b',
+                    opacity: 0,
+                },
+                {
+                   layer: '1875_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_house',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_depot',
+                   opacity: 0,
+               },
+               {
+                   layer: 'depot2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house1',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888',
+                   opacity: 0,
+               },
+               {
+                   layer: '1922',
+                   opacity: 0,
+               },
+               {
+                   layer: '1951',
+                   opacity: 0,
+               },
+               {
+                   layer: '1967',
+                   opacity: 0,
+               },
+               {
+                   layer: '1901',
+                   opacity: 0,
+               },
+               {
+                layer: '1976',
+                opacity: 0,
+               },
+               {
+                layer: '1981',
+                opacity: 0,
+               }
+            ]
         },
          {
             id: 'Chapter 10',
@@ -700,12 +837,7 @@ var config = {
             rotateAnimation: false,
             mapInteractive: true,
             callback: '',
-            onChapterEnter: [
-            //     {
-            //         layer: 'pcwnet',
-            //         opacity: 1
-            //     }
-            ],
+            onChapterEnter: [],
             onChapterExit: []
         },
          {

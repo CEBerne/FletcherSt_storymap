@@ -91,6 +91,16 @@
       "maxzoom": 20,
       "scheme": "xyz",
       "tileSize": 256
+    },
+    "1981_i": {
+      "type": "raster",
+      "tiles": [
+        "https://my-map-cogs.s3.us-east-2.amazonaws.com/1981tiles/{z}/{x}/{y}.png"
+      ],
+      "minzoom": 14,
+      "maxzoom": 18,
+      "scheme": "xyz",
+      "tileSize": 256
     }
 
   },
@@ -6417,6 +6427,13 @@
       "id": "1976",
       "type": "raster",
       "source": "1976_i",
+      "layout": {"visibility": "visible"},
+      "paint": {"raster-opacity": 1}
+    },
+    {
+      "id": "1981",
+      "type": "raster",
+      "source": "1981_i",
       "layout": {"visibility": "visible"},
       "paint": {"raster-opacity": 1}
     }
