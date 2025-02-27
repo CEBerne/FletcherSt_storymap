@@ -880,7 +880,7 @@ var config = {
             id: 'Chapter 11',
             alignment: 'left',
             hidden: false,
-            title: "From Pennypack Park to Brewerytown...El Dog relocates, again.",
+            title: "El Dog relocates horses to Brewerytown",
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/El_Dog_in_Brewerytown.jpeg',
             website: '', 
             description: "In the late 1980's and 1990's into the early 2000's, Ellis was forced to move his horses into abandoned warehouses in what was pre-gentrified Brewerytown...",
@@ -911,6 +911,87 @@ var config = {
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Philadelphia_Inquirer_1999_article.jpg',
             website: '', 
             description: "Image from Ron Tarver's book to be added along with article photo...",
+            location: {
+                center: [-75.17919, 39.99034],
+                zoom: 17.1,
+                pitch: 0,
+                bearing: 0,
+                speed: 0.7
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            mapInteractive: true,
+            callback: '',
+            onChapterEnter: [
+            //     {
+            //         layer: 'pcwnet',
+            //         opacity: 1
+            //     }
+            ],
+            onChapterExit: []
+        },
+         {
+            id: 'Chapter 13',
+            alignment: 'left',
+            hidden: false,
+            title: "Fletcher Street in the early 21st Century",
+            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Philadelphia_Inquirer_1999_article.jpg',
+            website: '', 
+            description: "Images from Cylcomedia",
+            location: {
+                center: [-75.17919, 39.99034],
+                zoom: 17.1,
+                pitch: 0,
+                bearing: 0,
+                speed: 0.7
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            mapInteractive: true,
+            callback: '',
+            onChapterEnter: [
+            //     {
+            //         layer: 'pcwnet',
+            //         opacity: 1
+            //     }
+            ],
+            onChapterExit: []
+        },
+         {
+            id: 'Chapter 14',
+            alignment: 'left',
+            hidden: false,
+            title: "Fletcher Street Urban Riding Club gifted new stable in the park",
+            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Philadelphia_Inquirer_1999_article.jpg',
+            website: '', 
+            description: "video of ribbob cutting",
+            location: {
+                center: [-75.17919, 39.99034],
+                zoom: 17.1,
+                pitch: 0,
+                bearing: 0,
+                speed: 0.7
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            mapInteractive: true,
+            callback: '',
+            onChapterEnter: [
+            //     {
+            //         layer: 'pcwnet',
+            //         opacity: 1
+            //     }
+            ],
+            onChapterExit: []
+        },
+         {
+            id: 'Chapter 15',
+            alignment: 'left',
+            hidden: false,
+            title: "Ride out to Fletcher family graves, November 2024",
+            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Crew_at_graves.jpeg',
+            website: '', 
+            description: "Video of ride to go here after editing",
             location: {
                 center: [-75.17919, 39.99034],
                 zoom: 17.1,
