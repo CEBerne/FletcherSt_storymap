@@ -452,7 +452,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: "Stables on Every Block!",
-            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/1920s_1930s_horses_in_Philly.png',
+            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/1920s_1930s_horses_in_Philly.jpg',
             website: '', 
             description: "In the early part of the 20th Century, horses proliferated the streets of Philadelphia...",
             location: {
