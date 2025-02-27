@@ -935,7 +935,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: "Fletcher Street in the early 21st Century",
-            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Philadelphia_Inquirer_1999_article.jpg',
+            image: '',
             website: '', 
             description: "Images from Cylcomedia",
             location: {
@@ -962,7 +962,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: "Fletcher Street Urban Riding Club gifted new stable in the park",
-            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Philadelphia_Inquirer_1999_article.jpg',
+            image: '',
             website: '', 
             description: "video of ribbob cutting",
             location: {
