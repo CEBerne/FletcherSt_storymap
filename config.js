@@ -1458,10 +1458,10 @@ var config = {
         },
          {
             id: 'Chapter 13',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: "Fletcher Street in the early 21st Century",
-            image: '',
+            image: './images/Image.gif',
             website: '', 
             description: "Images from Cylcomedia",
             location: {
