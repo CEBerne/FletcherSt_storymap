@@ -5,8 +5,8 @@ var config = {
     inset: true, // if inset map is set to true, legend will be disabled.
     legend: false, // if legend is set to true, inset will be disabled.
     theme: 'dark',
-    use3dTerrain: false, //set true for enabling 3D maps. You will need to provide your own terrain tiles.
-    useCustomLayers: false, //set true for enabling custom layers from sources.js
+    use3dTerrain: false,
+    useCustomLayers: false,
     bookmarks: false,
     chapterReturn: true,
     auto: false,
@@ -111,6 +111,10 @@ var config = {
                 {
                     layer: '2023',
                     opacity: 0,
+                },
+                {
+                    layer: '2024',
+                    opacity: 0,
                 }
             ],
             onChapterExit: []
@@ -209,6 +213,10 @@ var config = {
                 },
                 {
                     layer: '2023',
+                    opacity: 0,
+                },
+                {
+                    layer: '2024',
                     opacity: 0,
                 }
             ]
@@ -330,6 +338,10 @@ var config = {
             {
                 layer: '2023',
                 opacity: 0,
+            },
+            {
+                layer: '2024',
+                opacity: 0,
             }
            ]
         },
@@ -426,6 +438,10 @@ var config = {
                 {
                     layer: '2023',
                     opacity: 0,
+                },
+                {
+                    layer: '2024',
+                    opacity: 0,
                 }
             ]
         }, 
@@ -521,6 +537,10 @@ var config = {
                 {
                     layer: '2023',
                     opacity: 0,
+                },
+                {
+                    layer: '2024',
+                    opacity: 0,
                 }
             ]
         },
@@ -615,6 +635,10 @@ var config = {
                 },
                 {
                     layer: '2023',
+                    opacity: 0,
+                },
+                {
+                    layer: '2024',
                     opacity: 0,
                 }
             ]
@@ -733,6 +757,10 @@ var config = {
                 {
                     layer: '2023',
                     opacity: 0,
+                },
+                {
+                    layer: '2024',
+                    opacity: 0,
                 }
             ]
         },
@@ -827,6 +855,10 @@ var config = {
                 },
                 {
                     layer: '2023',
+                    opacity: 0,
+                },
+                {
+                    layer: '2024',
                     opacity: 0,
                 }
             ]
@@ -923,6 +955,10 @@ var config = {
                 {
                     layer: '2023',
                     opacity: 0,
+                },
+                {
+                    layer: '2024',
+                    opacity: 0,
                 }
             ]
         },
@@ -1018,6 +1054,10 @@ var config = {
                 {
                     layer: '2023',
                     opacity: 0,
+                },
+                {
+                    layer: '2024',
+                    opacity: 0,
                 }
             ]
         },
@@ -1112,6 +1152,10 @@ var config = {
                 },
                 {
                     layer: '2023',
+                    opacity: 0,
+                },
+                {
+                    layer: '2024',
                     opacity: 0,
                 }
             ]
@@ -1235,6 +1279,10 @@ var config = {
                 {
                     layer: '2023',
                     opacity: 1,
+                },
+                {
+                    layer: '2024',
+                    opacity: 0,
                 }
             ]
         },
@@ -1257,13 +1305,85 @@ var config = {
             rotateAnimation: false,
             mapInteractive: true,
             callback: '',
-            onChapterEnter: [
-            //     {
-            //         layer: 'pcwnet',
-            //         opacity: 1
-            //     }
-            ],
-            onChapterExit: []
+            onChapterEnter: [],
+            onChapterExit: [
+                {
+                    layer: '1875_b',
+                    opacity: 0,
+                },
+                {
+                   layer: '1875_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_house',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_depot',
+                   opacity: 0,
+               },
+               {
+                   layer: 'depot2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house1',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888',
+                   opacity: 0,
+               },
+               {
+                   layer: '1922',
+                   opacity: 0,
+               },
+               {
+                   layer: '1951',
+                   opacity: 0,
+               },
+               {
+                   layer: '1967',
+                   opacity: 0,
+               },
+               {
+                   layer: '1901',
+                   opacity: 0,
+               },
+               {
+                layer: '1976',
+                opacity: 0,
+               },
+               {
+                layer: '1981',
+                opacity: 0,
+               },
+               {
+                layer: '1987',
+                opacity: 0,
+                },
+                {
+                    layer: '1994',
+                    opacity: 0,
+                },
+                {
+                    layer: '2023',
+                    opacity: 0,
+                },
+                {
+                    layer: '2024',
+                    opacity: 1,
+                }
+            ]
         },
          {
             id: 'Chapter 15',
@@ -1274,8 +1394,8 @@ var config = {
             website: '', 
             description: "Video of ride to go here after editing",
             location: {
-                center: [-75.17919, 39.99034],
-                zoom: 17.1,
+                center: [-75.19048, 39.99915],
+                zoom: 17.28,
                 pitch: 0,
                 bearing: 0,
                 speed: 0.7
@@ -1284,12 +1404,7 @@ var config = {
             rotateAnimation: false,
             mapInteractive: true,
             callback: '',
-            onChapterEnter: [
-            //     {
-            //         layer: 'pcwnet',
-            //         opacity: 1
-            //     }
-            ],
+            onChapterEnter: [],
             onChapterExit: []
         }
     ]
