@@ -1387,14 +1387,14 @@ var config = {
         },
          {
             id: 'Chapter 15',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
             title: "Ride out to Fletcher family graves, November 2024",
             image: '',
             website: '', 
-            description: '<iframe src="https://drive.google.com/file/d/1yzBQxLucM1uukhTxUfsDhNzgx4GhzTtY/preview" width="640" height="480" allow="autoplay"></iframe>',
+            description: '<iframe src="https://drive.google.com/file/d/1yzBQxLucM1uukhTxUfsDhNzgx4GhzTtY/preview" width="100%" height="420" allow="autoplay"></iframe>',
             location: {
-                center: [-75.19040, 39.99893],
+                center: [-75.18829, 39.99891],
                 zoom: 17.75,
                 pitch: 0,
                 bearing: 0,
