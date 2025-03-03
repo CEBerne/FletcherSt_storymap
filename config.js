@@ -1461,9 +1461,9 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: "Fletcher Street in the early 21st Century",
-            image: './images/Image.gif',
+            image: '',
             website: '', 
-            description: "Images from Cylcomedia",
+            description: '<iframe src="https://drive.google.com/file/d/1PN1bCly8mc9l7iVBBbrGnT9-_sUGgKcL/preview" width="640" height="480" allow="autoplay"></iframe>',
             location: {
                 center: [-75.17919, 39.99034],
                 zoom: 17.1,
