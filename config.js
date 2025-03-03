@@ -1390,9 +1390,9 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: "Ride out to Fletcher family graves, November 2024",
-            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Crew_at_graves.jpeg',
+            image: '',
             website: '', 
-            description: "Video of ride to go here after editing",
+            description: "<iframe src="https://drive.google.com/file/d/1yzBQxLucM1uukhTxUfsDhNzgx4GhzTtY/preview" width="640" height="480" allow="autoplay"></iframe>",
             location: {
                 center: [-75.19040, 39.99893],
                 zoom: 17.75,
