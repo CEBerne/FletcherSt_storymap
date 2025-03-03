@@ -141,7 +141,24 @@
       "maxzoom": 20,
       "scheme": "xyz",
       "tileSize": 256
+    },
+    "ch2": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/CEBerne/FletcherSt_storymap/main/map/sources/ch2.geojson"
+    },
+    "ch3": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/CEBerne/FletcherSt_storymap/main/map/sources/ch3.geojson"
+    },
+    "ch9": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/CEBerne/FletcherSt_storymap/main/map/sources/ch9.geojson"
+    },
+    "ch15": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/CEBerne/FletcherSt_storymap/main/map/sources/ch15.geojson"
     }
+
   },
   "sprite": "https://api.maptiler.com/maps/openstreetmap/sprite",
   "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=bshGfp3eBy6tNNRM1zA5",
@@ -6503,7 +6520,60 @@
       "source": "2024_i",
       "layout": {"visibility": "visible"},
       "paint": {"raster-opacity": 1}
+    },
+    {
+      "id": "ch2",
+      "type": "line",
+      "source": "ch2",
+      "minzoom": 15,
+      "maxzoom": 22,
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(182, 26, 255, 1)",
+        "line-width": 6,
+        "line-opacity": 1
+      }
+    },
+    {
+      "id": "ch3",
+      "type": "line",
+      "source": "ch3",
+      "minzoom": 15,
+      "maxzoom": 22,
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(182, 26, 255, 1)",
+        "line-width": 6,
+        "line-opacity": 1
+      }
+    },
+    {
+      "id": "ch9",
+      "type": "line",
+      "source": "ch9",
+      "minzoom": 15,
+      "maxzoom": 22,
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(182, 26, 255, 1)",
+        "line-width": 6,
+        "line-opacity": 1
+      }
+    },
+    {
+      "id": "ch15",
+      "type": "line",
+      "source": "ch15",
+      "minzoom": 15,
+      "maxzoom": 22,
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(182, 26, 255, 1)",
+        "line-width": 6,
+        "line-opacity": 1
+      }
     }
+
   ],
   "id": "openstreetmap"
 }
