@@ -1394,8 +1394,8 @@ var config = {
             website: '', 
             description: "Video of ride to go here after editing",
             location: {
-                center: [-75.19048, 39.99915],
-                zoom: 17.28,
+                center: [-75.19040, 39.99893],
+                zoom: 17.75,
                 pitch: 0,
                 bearing: 0,
                 speed: 0.7
