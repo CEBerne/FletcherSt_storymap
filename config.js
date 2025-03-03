@@ -1463,7 +1463,7 @@ var config = {
             title: "Fletcher Street in the early 21st Century",
             image: '',
             website: '', 
-            description: '<iframe src="https://drive.google.com/file/d/1PN1bCly8mc9l7iVBBbrGnT9-_sUGgKcL/preview" width="640" height="480" allow="autoplay"></iframe>',
+            description: '<iframe src="https://drive.google.com/file/d/1PN1bCly8mc9l7iVBBbrGnT9-_sUGgKcL/preview" width="100%" height="420" allow="autoplay"></iframe>',
             location: {
                 center: [-75.17919, 39.99034],
                 zoom: 17.1,
