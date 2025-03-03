@@ -6502,7 +6502,7 @@
       "type": "raster",
       "source": "2024_i",
       "layout": {"visibility": "visible"},
-      "paint": {"raster-opacity": 0.65}
+      "paint": {"raster-opacity": 1}
     }
   ],
   "id": "openstreetmap"

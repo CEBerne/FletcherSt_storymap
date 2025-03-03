@@ -1162,10 +1162,10 @@ var config = {
         },
          {
             id: 'Chapter 12',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: "Fletcher Street in the 1990's",
-            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Philadelphia_Inquirer_1999_article.jpg',
+            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Chapter_12.png',
             website: '', 
             description: "Image from Ron Tarver's book to be added along with article photo...",
             location: {
