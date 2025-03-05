@@ -141,11 +141,11 @@ var config = {
             hidden: false,
             //title: 'Introduction',
             image: '',
-            caption: '',
+            caption: 'Horses have always been part of Philadelphia. Their presence in this city is as iconic as the Liberty Bell and Independence Hall. Communities of black horsemen and women are so ingrained into the cultural fabric of Philadelphia, it is not uncommon to see them riding through the streets at any given time. This story map traces the historical legacy of one street where horse stables have made an indelible impact on the social and emotional bonds strengthening North Philadelphia. Our hope is that readers understand the exceptionality of their story and help us provide support and resources for their continued preservation.',
             //website: '<a href="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd" target="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd">Historical map</a>',
             //author: 'Felipe Valdez',
             //legend: '<span style="font-size: 0.85em;"><em>Legend content</em><br></span><img src="/images/legend1.png" style="display: block; margin-top: 10px; width: 100%; max-width: 200px;">',
-            description: 'Horses have always been part of Philadelphia. Their presence in this city is as iconic as the Liberty Bell and Independence Hall. Communities of black horsemen and women are so ingrained into the cultural fabric of Philadelphia, it is not uncommon to see them riding through the streets at any given time. This story map traces the historical legacy of one street where horse stables have made an indelible impact on the social and emotional bonds strengthening North Philadelphia. Our hope is that readers understand the exceptionality of their story and help us provide support and resources for their continued preservation.',
+            description: '<iframe src="https://drive.google.com/file/d/1pMBVU9359srmuA5073mPrl3mzkCnH5Lu/preview" width="640" height="480" allow="autoplay"></iframe>',
             location: {
                 center: [-76.72589, 39.84370],
                 zoom: 6.54,
