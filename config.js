@@ -609,7 +609,7 @@ var config = {
             title: "Sarah Fletcher's passing (1901)",
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Fletcher_graves.jpg',
             website: '', 
-            description: '1899 son leaves her horse. 1902 House is sold - disappeares by 1910',
+            description: 'Sarah A. Fletcher was a landowner, mother of eight children (four of whom she out-lived), and community member of Strawberry Mansion. She passed away in 1901at the age of eighty-six and is buried alongside her husband and children at Laurel Hill East Cemetery. In 1902, her estate was sold. Fire insurance maps tell us that by 1910, the Fletcher house was replaced by a wagon factory, then an apron factory, and finally turned into a garage. If you visit 2813 W Fletcher Street today, you will see a vacant lot. However, without the influence of Sarah’s landownership and subsequent horse stables on her property, the continuation of horse ownership on that street may never have begun at all.',
             location: {
                 center: [-75.17919, 39.99034],
                 zoom: 17.1,
