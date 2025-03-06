@@ -724,7 +724,7 @@ var config = {
             title: "Stables on Every Block!",
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/1920s_1930s_horses_in_Philly.jpg',
             website: '', 
-            description: "In the early part of the 20th Century, horses proliferated the streets of Philadelphia...",
+            description: "According to this 1922 Bromley fire insurance map, horse stables existed on every block on and around Fletcher Street during the Roaring Twenties. Based on the map’s key, the yellow squares and rectangles with an “X” indicate wooden horse stables. Although the automobile was in operation at this time, this map shows that horses still served as primary drivers for daily operations in the city. Both black-and-white photos above were taken from books on historic Philadelphia. Both images depict black men guiding horses to either haul sanitation equipment or ferry dayworkers to their jobs during The Great Depression. Whatever their purpose, horses were utilized for various tasks in the early part of the 20th century.",
             location: {
                 center: [-75.17919, 39.99034],
                 zoom: 17.1,
