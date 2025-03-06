@@ -836,10 +836,10 @@ var config = {
             id: 'Chapter 6',
             alignment: 'left',
             hidden: false,
-            title: "Horace's horses get 'Rambunctious'",
+            title: "Horace's horse gets 'Rambunctious'",
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Phila_Inquirer_1945_article.jpg',
             website: '', 
-            description: "On July 16th 1945, the Philadelphia Inquirer published an article about a pinto pony who escaped Horace Lederman's stable at 2613 W Fletcher Street, causing a three block chase...",
+            description: "On July 16th, 1945, the Philadelphia Inquirer published an article about a pinto pony who escaped Horace Lederman's stable at 2613 W Fletcher Street, causing a three-block chase. This 1947 Sanborn map shows the Lederman house as an orange rectangle and the stable behind his house in pink (objects from historical map are georeferenced onto current a Google map of the street). The barn to the right, located at 2603 W Fletcher Street, was labeled on that map as a furniture warehouse, an unusual turn from its otherwise common purpose as a horse stable. This map from 1947 shows that even during times when the still-standing red brick barn at 2603 was not used to house horses, there was still a horse stable on the street, albeit next-door.",
             location: {
                 center: [-75.17642, 39.98979],
                 zoom: 17.6,
