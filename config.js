@@ -1551,7 +1551,7 @@ var config = {
             title: "Fletcher Street in the 1990's",
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Chapter_12.png',
             website: '', 
-            description: "Image from Ron Tarver's book to be added along with article photo...",
+            description: "On the left, an article published by the Philadelphia Inquirer profiles the horse stables at 2607-11 W Fletcher Street. At that time, they were run by Mr. Wayne Harris, already in his mid-60s. Mr. Harris was on the block between 1995 into the early 2000s. The author mentions that the other farm animals living on the lot did not require city licenses, which according to then spokesperson for the Department of Public Health, Jeff Moran, is leftover from “the days when horses were a primary form of transportation and Philadelphia County was much more rural” (qtd by Toosi, 1999). Even today, animals of all stripes live on Fletcher Street, as if no time has passed. On the right is an image from Ron Tarver’s book “The Long Ride Home: Black Cowboys in America” (2024). Mr. Tarver teaches photography at Swarthmore College and worked for National Geographic Magazine. His father was a black cowboy in Philadelphia, and many of the images in his book feature black horsemen from the 1990s. To see more of his incredible work, visit: www.rontarverphotographs.net.",
             location: {
                 center: [-75.17919, 39.99034],
                 zoom: 17.1,
