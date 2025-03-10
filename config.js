@@ -1088,7 +1088,7 @@ var config = {
             id: 'Chapter 8',
             alignment: 'left',
             hidden: false,
-            title: "",
+            title: "Photo credit: Rick Garrity @ rickgerrityphotography.com",
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Charlie_bnw.png',
             website: '', 
             description: "In Charlie's words: It was really nice down here. And the house over there (2613 W Fletcher St), I was damn near raised in there...The white man owned it. Horace Lederman. And uh, he had a wife and two kids, and I used to spend the nights there. He used to go to the horse sales. Horace Ledermen rented horses out every day, for the people, whoever wanted to go junkin or whatever. He'd charged em so much a day for the horse, four dollars a day...and they took the horses out. When they get done, they bring em back...had a man in there named Sam. He used to take care of the horses for Horace Lederman, and uh, it was good. That house was in better shape than it is now. He been dead over...twenty something years. Because the last time I saw him was in 74. But I went over his house in Jersey. He was glad to see me. He's a white man. He was glad to see me. He kissed me. But I loved it. I loved it. He loved at me too. (Interview, March 4, 2022)",
