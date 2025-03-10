@@ -1197,6 +1197,7 @@ var config = {
                     layer: 'ch15',
                     opacity: 0,
                 }
+            ]
         },
         {
             id: 'Chapter 9',
