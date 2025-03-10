@@ -1436,7 +1436,7 @@ var config = {
             title: "El Dog relocates horses to Brewerytown",
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/El_Dog_in_Brewerytown.jpeg',
             website: '', 
-            description: "In the late 1980's and 1990's into the early 2000's, Ellis was forced to move his horses into abandoned warehouses in what was pre-gentrified Brewerytown...",
+            description: "In the late 1980's into the early 2000's, Ellis moved his horses into an abandoned paper warehouse in what was pre-gentrified Brewerytown. The map on the right shows the location of his former stable (pink rectangle), where El Dog ran the Western Wranglers. In early January of 2025 (when this photo was taken), Ellis drove to the former location: now filled with condominiums behind secured fencing. As the freight train (pictured behind him) blew past, he remembered how the train would return after delivering watermelons and throw the extra hay overboard for his horses. Ellis wasn’t the only black cowboy on the block then. An article published in the Philadelphia Inquirer Magazine in July of 1993 mentions The White House, a stable that sat in a repurposed auto-body shop, run by “Bumpsey” Bullock, just down the street. In 2004, the city informed Ellis they were seizing the property via imminent domain. If you visit the neighborhood today, you can spot a mural located nearby by artist Phillip Adams titled “Industrious Light: Brewerytown” (2017) that depicts black men and horses, albeit in the context of the brewing industry.",
             location: {
                 center: [-75.18835, 39.97943],
                 zoom: 16.8,
