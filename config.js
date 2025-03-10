@@ -1206,7 +1206,7 @@ var config = {
             title: "Black (female) owner of horse stable, a first on Fletcher Street",
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Bertha_property_deed.jpg',
             website: '', 
-            description: "In 1986, Bertha Felder purchased the brick barn at 2603 W Fletcher Street...",
+            description: "Although this red brick stable appeared on fire insurance maps as early as 1875, the first confirmed owner of color did not own it until 1986. A resident of South Philadelphia, Ms. Felder still owns this stable today, despite attempts to sell it after the Netflix film “Concrete Cowboy” made it marketable. Originally on sale for $350,000, the price steadily went down as buyers realized the amount of maintenance required for a building still in its original condition. Efforts to secure preservation status for 2603 W Fletcher Street remain in ongoing by local black horsemen. The façade clearly conveys the passage of time with the original red brick and large metal hooks for hay bale intake. It would be a historic loss for the street, and the black riding community of Philadelphia as a whole, if this stable was ever torn down.",
             location: {
                 center: [-75.17716, 39.99014],
                 zoom: 17.1,
