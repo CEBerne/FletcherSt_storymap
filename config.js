@@ -388,7 +388,7 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
-            mapInteractive: true,
+            mapInteractive: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: [
