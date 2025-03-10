@@ -1091,7 +1091,7 @@ var config = {
             title: "Stables in Pennypack Park",
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Pennypack_park_stable.png',
             website: '', 
-            description: 'From 1979-1982, the Boulevard Stablemates operated out of a former Mounted Police stable, offering horseback riding lessons to local children...',
+            description: 'From 1979-1982, the Boulevard Stablemates operated out of a former Mounted Police stable, offering horseback riding lessons in the woods of Pennypack Park. Ellis Ferrell was the only black member of this organization, which made the news for helping disabled children through equine therapy. The stables had sat empty for years before the club proposed their mission to the Fairmount Park Commission, who allowed them to rent the space and open it to the community for humanitarian purposes. Sadly, by 1982, the director of Fairmount Park deemed the stables in a state of such “deterioration” that they decided to close them, forcing the Stablemates to find new homes for their horses. The city also claimed the land where the stable stood was “needed for ground maintenance equipment” (Russ, 1982) as they lacked a secure place to store their lawnmowers.',
             location: {
                 center: [-75.03951, 40.06621],
                 zoom: 16,
