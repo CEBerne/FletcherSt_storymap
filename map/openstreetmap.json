@@ -161,6 +161,10 @@
     "philly": {
       "type": "geojson",
       "data": "https://raw.githubusercontent.com/CEBerne/FletcherSt_storymap/main/map/sources/philly.geojson"
+    },
+    "philly_point": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/CEBerne/FletcherSt_storymap/main/map/sources/philly_point.geojson"
     }
 
   },
@@ -6605,7 +6609,7 @@
         "icon-image": "place-capital-8",
         "icon-offset": [0, 3],
         "icon-optional": false,
-        "icon-size": 1.5,
+        "icon-size": 0,
         "text-max-width": 8,
         "text-size": {"base": 1.2, "stops": [[15, 12], [25, 18]]}
       },
@@ -6616,6 +6620,19 @@
         "text-halo-color": "hsla(0, 0%, 100%, 0.8)",
         "text-halo-width": 1.2,
         "icon-color": "hsla(350, 69%, 38%, 0.98)"
+      }
+    },
+    {
+      "id":"philly_circle",
+      "type":"circle",
+      "source":"philly_point",
+      "minzoom":0,
+      "maxzoom": 10,
+      "layout": {
+        "visibility":"visible"
+      },
+      "paint": {
+        "circle-color": "#000000"
       }
     }
   ],
