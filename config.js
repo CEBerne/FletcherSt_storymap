@@ -1807,7 +1807,7 @@ var config = {
             id: 'Chapter 15',
             alignment: 'right',
             hidden: false,
-            title: "Fletcher Street loses grazing pasture",
+            title: "Fletcher Street loses grazing pasture (click to change slide)",
             image: '',
             website: '', 
             description: '<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR8VvjWNHK7EUW1JHXGCXbqMWddtKI9-codk0aIQeQlp5UW1T462Rzrxc_JYiSaAe7YR3kkWQ5HosnX/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>',
