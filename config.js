@@ -2,13 +2,13 @@ var config = {
     style: './map/openstreetmap.json',
     showMarkers: false,
     markerColor: '#a41e35',
-    inset: true, // if inset map is set to true, legend will be disabled.
+    inset: false, // if inset map is set to true, legend will be disabled.
     legend: false, // if legend is set to true, inset will be disabled.
     theme: 'dark',
     use3dTerrain: false,
     useCustomLayers: false,
     bookmarks: false,
-    chapterReturn: true,
+    chapterReturn: false,
     auto: false,
     title: "The Evolution of Fletcher Street's Horse Stables",
     //logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Temple_University_Logo.svg/320px-Temple_University_Logo.svg.png",
@@ -377,7 +377,6 @@ var config = {
             hidden: false,
             title: "The Fletcher Family",
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Fletcher_family_portraits.jpg',
-            website: '<a href="https://ambler.temple.edu/" target="https://ambler.temple.edu/">Learn more</a>',
             //legend: '<span style="font-size: 0.85em;"><em>Legend content</em><br></span><img src="/images/legend1.png" style="display: block; margin-top: 10px; width: 100%; max-width: 200px;">',
             description: 'Not many people live to see a street named after them. Such was case for Joshua Stroud Fletcher (1813-1887), patriarch of the Fletcher family, for whom the infamous street was named in 1867. Politically active, he helped organize the Native American party while co-editing The Philadelphia Sun (or Daily Sun), a Native American newspaper that ran from 1841 until 1857. Although the land upon which their house stood was purchased by his wife, Sarah A. Fletcher, in 1850, Joshua Sr. was said to have built “a magnificent mansion” on the 2800 block of W Fletcher Street, which the family inhabited by 1880. Joshua Sr. was also a “coach trimmer”; thus, before the days of the horse-drawn streetcar, he designed and built the interior of horse-drawn carriages. In his obituary, it states Joshua Sr. “leaves a large estate, and his wife and several children survive him”. Two of his sons, Joshua Jr. and Lansing, were union calvary soldiers in the Civil War. Joshua Jr. is pictured here, between his parents, in his well decorated soldier uniform. When Joshua Jr. passed in 1899, he left 1 horse, 2 harnesses and 3 carriages to his mother in his will. He also left property on Fletcher Street to his mother and sisters (should they outlive her). Sarah’s youngest daughter, Ella, passed away in 1929.',
             location: {
@@ -1578,7 +1577,7 @@ var config = {
             title: "Fletcher Street in the early 21st Century",
             image: '',
             website: '', 
-            description: 'The early 2000s saw rapid change for Fletcher Street’s horse community. After the Brewerytown stables were demolished in 2004, Ellis decided to formally create his non-profit, the Fletcher Street Urban Riding Club. Soon after, the media began to pay attention. Starting with a cover story on LIFE magazine (April, 2005), followed by the publication of a coffee table photo book by Martha Camarillo (2006) simply titled “Fletcher Street”, the street gained status. With increased recognition, dedicated community members began making changes on the block. In 2014, the club accrued land title for 2607-11 W. Fletcher Street, thanks to a generous donation from a local real estate agent. Once ownership was confirmed, clean-up of the lot began. These images, taken from cyclomedia.phila.gov, illustrate the gradual transformation from abandonment to grass-roots establishment.<iframe src="https://drive.google.com/file/d/1PN1bCly8mc9l7iVBBbrGnT9-_sUGgKcL/preview" width="100%" height="420" allow="autoplay"></iframe>',
+            description: 'The early 2000s saw rapid change for Fletcher Street’s horse community. After the Brewerytown stables were demolished in 2004, Ellis decided to formally create his non-profit, the Fletcher Street Urban Riding Club. Soon after, the media began to pay attention. Starting with a cover story on LIFE magazine (April, 2005), followed by the publication of a coffee table photo book by Martha Camarillo (2006) simply titled “Fletcher Street”, the street gained status. With increased recognition, dedicated community members began making changes on the block. In 2014, the club accrued land title for 2607-11 W. Fletcher Street, thanks to a generous donation from a local real estate agent. Once ownership was confirmed, clean-up of the lot began. These images, taken from cyclomedia.phila.gov, illustrate the gradual transformation from abandonment to grass-roots establishment.<br><br><iframe src="https://drive.google.com/file/d/1PN1bCly8mc9l7iVBBbrGnT9-_sUGgKcL/preview" width="100%" height="420" allow="autoplay"></iframe>',
             location: {
                 center: [-75.17919, 39.99034],
                 zoom: 17.1,
