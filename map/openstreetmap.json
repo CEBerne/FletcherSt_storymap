@@ -157,6 +157,10 @@
     "ch15": {
       "type": "geojson",
       "data": "https://raw.githubusercontent.com/CEBerne/FletcherSt_storymap/main/map/sources/ch15.geojson"
+    },
+    "philly": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/CEBerne/FletcherSt_storymap/main/map/sources/philly.geojson"
     }
 
   },
@@ -6309,7 +6313,7 @@
       "metadata": {},
       "source": "openmaptiles",
       "source-layer": "place",
-      "minzoom": 3,
+      "minzoom": 4,
       "maxzoom": 15,
       "filter": ["all", ["==", "class", "city"], ["in", "capital", 1, 2]],
       "layout": {
@@ -6572,8 +6576,39 @@
         "line-width": 6,
         "line-opacity": 1
       }
+    },
+    {
+      "id": "philly",
+      "type": "fill",
+      "source": "philly",
+      "minzoom":0,
+      "maxzoom": 10,
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color":"#ca795c",
+        "fill-outline-color":"rgba(251, 236, 20, 1)"
+      }
+    },
+    {
+      "id": "philly_text",
+      "type":"symbol",
+      "source":"philly",
+      "minzoom":0,
+      "maxzoom": 10,
+      "layout": {
+        "visibility": "visible",
+        "text-field":"{name}",
+        "text-font": ["Open Sans Semibold", "Noto Sans Regular"],
+        "text-size": 18
+      },
+      "paint": {
+        "text-color": {
+          "stops": [[6, "hsl(0, 0%, 29%)"], [14, "hsla(0, 0%, 13%, 1)"]]
+        },
+        "text-halo-color": "hsla(0, 0%, 100%, 0.8)",
+        "text-halo-width": 1.2
+      }
     }
-
   ],
   "id": "openstreetmap"
 }
