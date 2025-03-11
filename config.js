@@ -177,7 +177,7 @@ var config = {
                },
                {
                    layer: 'depot2',
-                   opacity: 1,
+                   opacity: 0,
                },
                {
                    layer: '1888_barn',
@@ -295,7 +295,7 @@ var config = {
            },
            {
                layer: 'depot2',
-               opacity: 0,
+               opacity: 1,
            },
            {
                layer: '1888_barn',
@@ -355,7 +355,7 @@ var config = {
             },
             {
                 layer: 'ch2',
-                opacity: 1,
+                opacity: 0,
             },
             {
                 layer: 'ch3',
