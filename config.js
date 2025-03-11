@@ -263,7 +263,7 @@ var config = {
             //website: '<a href="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd" target="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd">Historical map</a>',
             //author: 'Felipe Valdez',
             //legend: '<span style="font-size: 0.85em;"><em>Legend content</em><br></span><img src="/images/legend1.png" style="display: block; margin-top: 10px; width: 100%; max-width: 200px;">',
-            description: 'In the 19th Century, horses powered urban public transportation. In Philadelphia, horses pulled busses and canal boats for years before the Horse-Drawn Streetcar took over. Horse-drawn transit was popular all along the eastern United States, as historian Ann Greene attests, “anyone traveling by railroad from Washington, D.C. to New York city in 1860 used horses on every stage of their trip" (2008, p. 43).,
+            description: 'In the 19th Century, horses powered urban public transportation. In Philadelphia, horses pulled busses and canal boats for years before the Horse-Drawn Streetcar took over. Horse-drawn transit was popular all along the eastern United States, as historian Ann Greene attests, “anyone traveling by railroad from Washington, D.C. to New York city in 1860 used horses on every stage of their trip" (2008, p. 43).',
             location: {
                 center: [-75.183, 39.99027],
                 zoom: 16.12,
