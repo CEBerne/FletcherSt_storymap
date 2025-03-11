@@ -259,7 +259,7 @@ var config = {
             hidden: false,
             title: "Philadelphia's Public Transportation: The Horse-Drawn Streetcar (1858-1897)",
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Horse_Depot_Map_1875.jpg',
-            caption: 'Horse Drawn streetcar map 1875 (from the Free Library of Philadelphia)',
+            caption: 'Horse Drawn Streetcar map of 1875 (Courtesy of the Free Library of Philadelphia, Map Collection)',
             //website: '<a href="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd" target="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd">Historical map</a>',
             //author: 'Felipe Valdez',
             //legend: '<span style="font-size: 0.85em;"><em>Legend content</em><br></span><img src="/images/legend1.png" style="display: block; margin-top: 10px; width: 100%; max-width: 200px;">',
