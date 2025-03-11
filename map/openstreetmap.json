@@ -6605,20 +6605,20 @@
         "text-field":"{name}",
         "text-font": ["Open Sans Semibold", "Noto Sans Regular"],
         "text-anchor": "bottom",
-        "text-offset": [0, 0],
+        "text-offset": [0, -0.5],
         "icon-image": "place-capital-8",
         "icon-offset": [0, 3],
         "icon-optional": false,
         "icon-size": 0,
         "text-max-width": 8,
-        "text-size": {"base": 1.2, "stops": [[15, 12], [25, 18]]}
+        "text-size": {"base": 1.2, "stops": [[0, 10], [10, 25]]}
       },
       "paint": {
         "text-color": {
           "stops": [[6, "hsl(0, 0%, 29%)"], [14, "hsla(0, 0%, 13%, 1)"]]
         },
         "text-halo-color": "hsla(0, 0%, 100%, 0.8)",
-        "text-halo-width": 1.2,
+        "text-halo-width": 1.5,
         "icon-color": "hsla(350, 69%, 38%, 0.98)"
       }
     },
@@ -6627,12 +6627,15 @@
       "type":"circle",
       "source":"philly_point",
       "minzoom":0,
-      "maxzoom": 10,
+      "maxzoom": 4,
       "layout": {
         "visibility":"visible"
       },
       "paint": {
-        "circle-color": "#000000"
+        "circle-color": "#a41e35",
+        "circle-radius": 8,
+        "circle-blur":0.6,
+        "circle-opacity": 0.9
       }
     }
   ],
