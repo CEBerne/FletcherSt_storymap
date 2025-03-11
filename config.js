@@ -252,9 +252,127 @@ var config = {
                     opacity: 0,
                 }
             ]
+        }, 
+         {
+            id: 'Chapter 1',
+            alignment: 'left',
+            hidden: false,
+            title: "Philadelphia's Public Transportation: The Horse-Drawn Streetcar (1858-1897)",
+            image: '',
+            caption: 'Horse Drawn streetcar map 1875 (from the Free Library of Philadelphia)',
+            //website: '<a href="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd" target="https://temple.maps.arcgis.com/apps/MapSeries/index.html?appid=9b76db43c88946cfa92d269463ac26dd">Historical map</a>',
+            //author: 'Felipe Valdez',
+            //legend: '<span style="font-size: 0.85em;"><em>Legend content</em><br></span><img src="/images/legend1.png" style="display: block; margin-top: 10px; width: 100%; max-width: 200px;">',
+            description: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Horse_Depot_Map_1875.jpg',
+            location: {
+                center: [-75.183, 39.99027],
+                zoom: 16.12,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            spinGlobe: true,
+            mapInteractive: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: [
+                {
+                layer: '1875_b',
+                opacity: 1,
+            },
+            {
+               layer: '1875_barn',
+               opacity: 1,
+           },
+           {
+               layer: '1875_house',
+               opacity: 1,
+           },
+           {
+               layer: '1875_depot',
+               opacity: 0,
+           },
+           {
+               layer: 'depot2',
+               opacity: 0,
+           },
+           {
+               layer: '1888_barn',
+               opacity: 0,
+           },
+           {
+               layer: '1888_house1',
+               opacity: 0,
+           },
+           {
+               layer: '1888_house2',
+               opacity: 0,
+           },
+           {
+               layer: '1888',
+               opacity: 0,
+           },
+           {
+               layer: '1922',
+               opacity: 0,
+           },
+           {
+               layer: '1951',
+               opacity: 0,
+           },
+           {
+               layer: '1967',
+               opacity: 0,
+           },
+           {
+               layer: '1901',
+               opacity: 0,
+           },
+           {
+            layer: '1976',
+            opacity: 0,
+           },
+           {
+            layer: '1981',
+            opacity: 0,
+           },
+           {
+            layer: '1987',
+            opacity: 0,
+            },
+            {
+                layer: '1994',
+                opacity: 0,
+            },
+            {
+                layer: '2023',
+                opacity: 0,
+            },
+            {
+                layer: '2024',
+                opacity: 0,
+            },
+            {
+                layer: 'ch2',
+                opacity: 1,
+            },
+            {
+                layer: 'ch3',
+                opacity: 0,
+            },
+            {
+                layer: 'ch9',
+                opacity: 0,
+            },
+            {
+                layer: 'ch15',
+                opacity: 0,
+            }
+        ]
         },
         {
-            id: 'Chapter 1',
+            id: 'Chapter 2',
             alignment: 'left',
             hidden: false,
             title: "Philadelphia's Public Transportation: The Horse-Drawn Streetcar (1858-1897)",
@@ -372,7 +490,7 @@ var config = {
         ]
         },
         {
-            id: 'Chapter 2',
+            id: 'Chapter 3',
             alignment: 'left',
             hidden: false,
             title: "The Fletcher Family",
@@ -486,7 +604,7 @@ var config = {
            ]
         },
         {
-            id: 'Chapter 3',
+            id: 'Chapter 4',
             alignment: 'left',
             hidden: false,
             title: "1888: 2613 W Fletcher Street appears on maps",
@@ -602,7 +720,7 @@ var config = {
             ]
         }, 
         {
-            id: 'Chapter 4',
+            id: 'Chapter 5',
             alignment: 'left',
             hidden: false,
             title: "Sarah Fletcher's passing (1901)",
@@ -717,7 +835,7 @@ var config = {
             ]
         },
           {
-            id: 'Chapter 5',
+            id: 'Chapter 6',
             alignment: 'left',
             hidden: false,
             title: "Stables on Every Block!",
@@ -832,7 +950,7 @@ var config = {
             ]
         },
           {
-            id: 'Chapter 6',
+            id: 'Chapter 7',
             alignment: 'left',
             hidden: false,
             title: "Horace's horse gets 'Rambunctious'",
@@ -854,7 +972,7 @@ var config = {
             onChapterExit: []
         },
           {
-            id: 'Chapter 7',
+            id: 'Chapter 8',
             alignment: 'center',
             hidden: false,
             title: "Mid-Century Changes",
@@ -969,7 +1087,7 @@ var config = {
             ]
         },
           {
-            id: 'Chapter 8',
+            id: 'Chapter 9',
             alignment: 'left',
             hidden: false,
             title: "Horace Lederman passes away in 1975",
@@ -1084,13 +1202,13 @@ var config = {
             ]
         },
           {
-            id: 'Chapter 8',
+            id: 'Chapter 9.5',
             alignment: 'left',
             hidden: false,
-            title: "Photo credit: Rick Garrity @ rickgerrityphotography.com",
+            title: "Charlie (Photo credit: Rick Gerrity)",
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Charlie_bnw.png',
             website: '', 
-            description: "In Charlie's words (Charlie pictured above): It was really nice down here. And the house over there (2613 W Fletcher St), I was damn near raised in there...The white man owned it. Horace Lederman. And uh, he had a wife and two kids, and I used to spend the nights there. He used to go to the horse sales. Horace Ledermen rented horses out every day, for the people, whoever wanted to go junkin or whatever. He'd charged em so much a day for the horse, four dollars a day...and they took the horses out. When they get done, they bring em back...had a man in there named Sam. He used to take care of the horses for Horace Lederman, and uh, it was good. That house was in better shape than it is now. He been dead over...twenty something years. Because the last time I saw him was in 74. But I went over his house in Jersey. He was glad to see me. He's a white man. He was glad to see me. He kissed me. But I loved it. I loved it. He loved at me too. (Interview, March 4, 2022)",
+            description: "In Charlie's words: <em>It was really nice down here. And the house over there (2613 W Fletcher St), I was damn near raised in there...The white man owned it. Horace Lederman. And uh, he had a wife and two kids, and I used to spend the nights there. He used to go to the horse sales. Horace Ledermen rented horses out every day, for the people, whoever wanted to go junkin or whatever. He'd charged em so much a day for the horse, four dollars a day...and they took the horses out. When they get done, they bring em back...had a man in there named Sam. He used to take care of the horses for Horace Lederman, and uh, it was good. That house was in better shape than it is now. He been dead over...twenty something years. Because the last time I saw him was in 74. But I went over his house in Jersey. He was glad to see me. He's a white man. He was glad to see me. He kissed me. But I loved it. I loved it. He loved at me too.</em> (Interview, March 4, 2022)",
             location: {
                 center: [-75.17720, 39.98982],
                 zoom: 17.6,
@@ -1199,7 +1317,7 @@ var config = {
             ]
         },
         {
-            id: 'Chapter 9',
+            id: 'Chapter 10',
             alignment: 'left',
             hidden: false,
             title: "Stables in Pennypack Park",
@@ -1314,7 +1432,7 @@ var config = {
             ]
         },
          {
-            id: 'Chapter 10',
+            id: 'Chapter 11',
             alignment: 'left',
             hidden: false,
             title: "Black (female) owner of horse stable, a first on Fletcher Street",
@@ -1429,7 +1547,7 @@ var config = {
             ]
         },
          {
-            id: 'Chapter 11',
+            id: 'Chapter 12',
             alignment: 'left',
             hidden: false,
             title: "El Dog relocates horses to Brewerytown",
@@ -1544,7 +1662,7 @@ var config = {
             ]
         },
          {
-            id: 'Chapter 12',
+            id: 'Chapter 13',
             alignment: 'right',
             hidden: false,
             title: "Fletcher Street in the 1990's",
@@ -1571,7 +1689,7 @@ var config = {
             onChapterExit: []
         },
          {
-            id: 'Chapter 13',
+            id: 'Chapter 14',
             alignment: 'right',
             hidden: false,
             title: "Fletcher Street in the early 21st Century",
@@ -1686,7 +1804,122 @@ var config = {
             ]
         },
          {
-            id: 'Chapter 14',
+            id: 'Chapter 15',
+            alignment: 'right',
+            hidden: false,
+            title: "Fletcher Street loses grazing pasture",
+            image: '',
+            website: '', 
+            description: '',
+            location: {
+                center: [-75.17919, 39.99034],
+                zoom: 17.1,
+                pitch: 0,
+                bearing: 0,
+                speed: 0.7
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            mapInteractive: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: [
+                {
+                    layer: '1875_b',
+                    opacity: 0,
+                },
+                {
+                   layer: '1875_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_house',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_depot',
+                   opacity: 0,
+               },
+               {
+                   layer: 'depot2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house1',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888',
+                   opacity: 0,
+               },
+               {
+                   layer: '1922',
+                   opacity: 0,
+               },
+               {
+                   layer: '1951',
+                   opacity: 0,
+               },
+               {
+                   layer: '1967',
+                   opacity: 0,
+               },
+               {
+                   layer: '1901',
+                   opacity: 0,
+               },
+               {
+                layer: '1976',
+                opacity: 0,
+               },
+               {
+                layer: '1981',
+                opacity: 0,
+               },
+               {
+                layer: '1987',
+                opacity: 0,
+                },
+                {
+                    layer: '1994',
+                    opacity: 0,
+                },
+                {
+                    layer: '2023',
+                    opacity: 1,
+                },
+                {
+                    layer: '2024',
+                    opacity: 0,
+                },
+                {
+                    layer: 'ch2',
+                    opacity: 0,
+                },
+                {
+                    layer: 'ch3',
+                    opacity: 0,
+                },
+                {
+                    layer: 'ch9',
+                    opacity: 0,
+                },
+                {
+                    layer: 'ch15',
+                    opacity: 0,
+                }
+            ]
+        },
+         {
+            id: 'Chapter 16',
             alignment: 'left',
             hidden: false,
             title: "Fletcher Street Urban Riding Club gifted new stable in the park",
@@ -1801,7 +2034,7 @@ var config = {
             ]
         },
          {
-            id: 'Chapter 15',
+            id: 'Chapter 17',
             alignment: 'center',
             hidden: false,
             title: "Ride out to Fletcher family graves, November 2024",
