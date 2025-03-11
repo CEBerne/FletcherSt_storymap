@@ -1810,7 +1810,7 @@ var config = {
             title: "Fletcher Street loses grazing pasture",
             image: '',
             website: '', 
-            description: '',
+            description: '<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR8VvjWNHK7EUW1JHXGCXbqMWddtKI9-codk0aIQeQlp5UW1T462Rzrxc_JYiSaAe7YR3kkWQ5HosnX/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>',
             location: {
                 center: [-75.17919, 39.99034],
                 zoom: 17.1,
