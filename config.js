@@ -161,15 +161,15 @@ var config = {
             onChapterExit: [
                 {
                     layer: '1875_b',
-                    opacity: 1,
+                    opacity: 0,
                 },
                 {
                    layer: '1875_barn',
-                   opacity: 1,
+                   opacity: 0,
                },
                {
                    layer: '1875_house',
-                   opacity: 1,
+                   opacity: 0,
                },
                {
                    layer: '1875_depot',
@@ -255,7 +255,7 @@ var config = {
         }, 
          {
             id: 'Chapter 1',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: "Philadelphia's Public Transportation: The Horse-Drawn Streetcar (1858-1897)",
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Horse_Depot_Map_1875.jpg',
