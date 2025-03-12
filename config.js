@@ -2045,7 +2045,7 @@ var config = {
                 center: [-75.17919, 39.99034],
                 zoom: 17.1,
                 pitch: 0,
-                bearing: 0
+                bearing: 0,
                 speed: 0.7
             },
             mapAnimation: 'flyTo',
