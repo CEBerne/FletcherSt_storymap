@@ -6618,7 +6618,7 @@
         "text-size": {"base": 1.2, "stops": [[0, 14], [10, 30]]}
       },
       "paint": {
-        "text-color": "#a41e35",
+        "text-color": "#b85d0d",
         "text-halo-color": "hsla(0, 0%, 100%, 0.8)",
         "text-halo-width": 1.5,
         "icon-color": "hsla(350, 69%, 38%, 0.98)"
@@ -6634,7 +6634,7 @@
         "visibility":"visible"
       },
       "paint": {
-        "circle-color": "#a41e35",
+        "circle-color": "#b85d0d",
         "circle-radius": 8,
         "circle-blur":0.6,
         "circle-opacity": 0.9
