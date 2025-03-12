@@ -131,6 +131,10 @@ var config = {
                 {
                     layer: 'ch15',
                     opacity: 0,
+                },
+                {
+                    layer: 'red_barn',
+                    opacity: 0,
                 }
             ],
             onChapterExit: []
@@ -250,6 +254,10 @@ var config = {
                 {
                     layer: 'ch15',
                     opacity: 0,
+                },
+                {
+                    layer: 'red_barn',
+                    opacity: 0,
                 }
             ]
         }, 
@@ -367,6 +375,10 @@ var config = {
             },
             {
                 layer: 'ch15',
+                opacity: 0,
+            },
+            {
+                layer: 'red_barn',
                 opacity: 0,
             }
         ]
@@ -486,6 +498,10 @@ var config = {
             {
                 layer: 'ch15',
                 opacity: 0,
+            },
+            {
+                layer: 'red_barn',
+                opacity: 0,
             }
         ]
         },
@@ -599,6 +615,10 @@ var config = {
             },
             {
                 layer: 'ch15',
+                opacity: 0,
+            },
+            {
+                layer: 'red_barn',
                 opacity: 0,
             }
            ]
@@ -716,6 +736,10 @@ var config = {
                 {
                     layer: 'ch15',
                     opacity: 0,
+                },
+                {
+                    layer: 'red_barn',
+                    opacity: 0,
                 }
             ]
         }, 
@@ -831,6 +855,10 @@ var config = {
                 {
                     layer: 'ch15',
                     opacity: 0,
+                },
+                {
+                    layer: 'red_barn',
+                    opacity: 0,
                 }
             ]
         },
@@ -945,6 +973,10 @@ var config = {
                 },
                 {
                     layer: 'ch15',
+                    opacity: 0,
+                },
+                {
+                    layer: 'red_barn',
                     opacity: 0,
                 }
             ]
@@ -1074,7 +1106,7 @@ var config = {
                 },
                 {
                     layer: 'ch3',
-                    opacity: 0,
+                    opacity: 1,
                 },
                 {
                     layer: 'ch9',
@@ -1082,6 +1114,10 @@ var config = {
                 },
                 {
                     layer: 'ch15',
+                    opacity: 0,
+                },
+                {
+                    layer: 'red_barn',
                     opacity: 0,
                 }
             ]
@@ -1106,100 +1142,7 @@ var config = {
             mapInteractive: true,
             callback: '',
             onChapterEnter: [],
-            onChapterExit: [
-                {
-                    layer: '1875_b',
-                    opacity: 0,
-                },
-                {
-                   layer: '1875_barn',
-                   opacity: 0,
-               },
-               {
-                   layer: '1875_house',
-                   opacity: 0,
-               },
-               {
-                   layer: '1875_depot',
-                   opacity: 0,
-               },
-               {
-                   layer: 'depot2',
-                   opacity: 0,
-               },
-               {
-                   layer: '1888_barn',
-                   opacity: 0,
-               },
-               {
-                   layer: '1888_house1',
-                   opacity: 0,
-               },
-               {
-                   layer: '1888_house2',
-                   opacity: 0,
-               },
-               {
-                   layer: '1888',
-                   opacity: 0,
-               },
-               {
-                   layer: '1922',
-                   opacity: 0,
-               },
-               {
-                   layer: '1951',
-                   opacity: 0,
-               },
-               {
-                   layer: '1967',
-                   opacity: 0,
-               },
-               {
-                   layer: '1901',
-                   opacity: 0,
-               },
-               {
-                layer: '1976',
-                opacity: 0,
-               },
-               {
-                layer: '1981',
-                opacity: 1,
-               },
-               {
-                layer: '1987',
-                opacity: 0,
-                },
-                {
-                    layer: '1994',
-                    opacity: 0,
-                },
-                {
-                    layer: '2023',
-                    opacity: 0,
-                },
-                {
-                    layer: '2024',
-                    opacity: 0,
-                },
-                {
-                    layer: 'ch2',
-                    opacity: 0,
-                },
-                {
-                    layer: 'ch3',
-                    opacity: 0,
-                },
-                {
-                    layer: 'ch9',
-                    opacity: 1,
-                },
-                {
-                    layer: 'ch15',
-                    opacity: 0,
-                 }
-            ]
+            onChapterExit: []
         },
           {
             id: 'Chapter 9.5',
@@ -1223,96 +1166,8 @@ var config = {
             onChapterEnter: [],
             onChapterExit: [
                 {
-                    layer: '1875_b',
-                    opacity: 0,
-                },
-                {
-                   layer: '1875_barn',
-                   opacity: 0,
-               },
-               {
-                   layer: '1875_house',
-                   opacity: 0,
-               },
-               {
-                   layer: '1875_depot',
-                   opacity: 0,
-               },
-               {
-                   layer: 'depot2',
-                   opacity: 0,
-               },
-               {
-                   layer: '1888_barn',
-                   opacity: 0,
-               },
-               {
-                   layer: '1888_house1',
-                   opacity: 0,
-               },
-               {
-                   layer: '1888_house2',
-                   opacity: 0,
-               },
-               {
-                   layer: '1888',
-                   opacity: 0,
-               },
-               {
-                   layer: '1922',
-                   opacity: 0,
-               },
-               {
-                   layer: '1951',
-                   opacity: 0,
-               },
-               {
-                   layer: '1967',
-                   opacity: 0,
-               },
-               {
-                   layer: '1901',
-                   opacity: 0,
-               },
-               {
-                layer: '1976',
-                opacity: 0,
-               },
-               {
-                layer: '1981',
-                opacity: 1,
-               },
-               {
-                layer: '1987',
-                opacity: 0,
-                },
-                {
-                    layer: '1994',
-                    opacity: 0,
-                },
-                {
-                    layer: '2023',
-                    opacity: 0,
-                },
-                {
-                    layer: '2024',
-                    opacity: 0,
-                },
-                {
-                    layer: 'ch2',
-                    opacity: 0,
-                },
-                {
-                    layer: 'ch3',
-                    opacity: 0,
-                },
-                {
-                    layer: 'ch9',
+                    layer: 'red_barn',
                     opacity: 1,
-                },
-                {
-                    layer: 'ch15',
-                    opacity: 0,
                 }
             ]
         },

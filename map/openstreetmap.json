@@ -165,6 +165,10 @@
     "philly_point": {
       "type": "geojson",
       "data": "https://raw.githubusercontent.com/CEBerne/FletcherSt_storymap/main/map/sources/philly_point.geojson"
+    },
+    "red_barn": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/CEBerne/FletcherSt_storymap/main/map/sources/red_barn.geojson"
     }
 
   },
@@ -6611,12 +6615,10 @@
         "icon-optional": false,
         "icon-size": 0,
         "text-max-width": 8,
-        "text-size": {"base": 1.2, "stops": [[0, 10], [10, 25]]}
+        "text-size": {"base": 1.2, "stops": [[0, 14], [10, 30]]}
       },
       "paint": {
-        "text-color": {
-          "stops": [[6, "hsl(0, 0%, 29%)"], [14, "hsla(0, 0%, 13%, 1)"]]
-        },
+        "text-color": "#a41e35",
         "text-halo-color": "hsla(0, 0%, 100%, 0.8)",
         "text-halo-width": 1.5,
         "icon-color": "hsla(350, 69%, 38%, 0.98)"
@@ -6636,6 +6638,19 @@
         "circle-radius": 8,
         "circle-blur":0.6,
         "circle-opacity": 0.9
+      }
+    },
+    {
+      "id": "red_barn",
+      "type": "line",
+      "source": "red_barn",
+      "minzoom": 15,
+      "maxzoom": 22,
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-color": "rgba(182, 26, 255, 1)",
+        "line-width": 6,
+        "line-opacity": 1
       }
     }
   ],
