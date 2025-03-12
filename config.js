@@ -1287,7 +1287,11 @@ var config = {
                 {
                     layer: 'ch15',
                     opacity: 0,
-                 }
+                 },
+                 {
+                    layer: 'red_barn',
+                    opacity: 0,
+                },
             ]
         },
         {
