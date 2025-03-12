@@ -2034,13 +2034,13 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'Chapter 18',
+            id: 'Chapter 19',
             alignment: 'center',
             hidden: false,
-            title: "Ride out to Fletcher family graves, November 2024",
+            title: "Special Thanks!",
             image: '',
             website: '', 
-            description: '<iframe src="https://drive.google.com/file/d/1yzBQxLucM1uukhTxUfsDhNzgx4GhzTtY/preview" width="100%" height="420" allow="autoplay"></iframe>',
+            description: '',
             location: {
                 center: [-75.18829, 39.99891],
                 zoom: 17.75,
