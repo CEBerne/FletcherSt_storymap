@@ -1320,6 +1320,120 @@ var config = {
             id: 'Chapter 10',
             alignment: 'left',
             hidden: false,
+            title: "The Decline of Strawberry Mansion",
+            image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Strawberry_Mansion_1972.jpg',
+            website: '', 
+            description: "",
+            location: {
+                center: [-75.17720, 39.98982],
+                zoom: 17.6,
+                pitch: 0,
+                bearing: 0,
+                speed: 0.7
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            mapInteractive: true,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: [
+                {
+                    layer: '1875_b',
+                    opacity: 0,
+                },
+                {
+                   layer: '1875_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_house',
+                   opacity: 0,
+               },
+               {
+                   layer: '1875_depot',
+                   opacity: 0,
+               },
+               {
+                   layer: 'depot2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_barn',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house1',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888_house2',
+                   opacity: 0,
+               },
+               {
+                   layer: '1888',
+                   opacity: 0,
+               },
+               {
+                   layer: '1922',
+                   opacity: 0,
+               },
+               {
+                   layer: '1951',
+                   opacity: 0,
+               },
+               {
+                   layer: '1967',
+                   opacity: 0,
+               },
+               {
+                   layer: '1901',
+                   opacity: 0,
+               },
+               {
+                layer: '1976',
+                opacity: 0,
+               },
+               {
+                layer: '1981',
+                opacity: 1,
+               },
+               {
+                layer: '1987',
+                opacity: 0,
+                },
+                {
+                    layer: '1994',
+                    opacity: 0,
+                },
+                {
+                    layer: '2023',
+                    opacity: 0,
+                },
+                {
+                    layer: '2024',
+                    opacity: 0,
+                },
+                {
+                    layer: 'ch2',
+                    opacity: 0,
+                },
+                {
+                    layer: 'ch3',
+                    opacity: 0,
+                },
+                {
+                    layer: 'ch9',
+                    opacity: 1,
+                },
+                {
+                    layer: 'ch15',
+                    opacity: 0,
+                }
+            ]
+        {
+            id: 'Chapter 10',
+            alignment: 'left',
+            hidden: false,
             title: "Stables in Pennypack Park",
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Pennypack_park_stable.png',
             website: '', 
