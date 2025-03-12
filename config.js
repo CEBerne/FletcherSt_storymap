@@ -1168,6 +1168,10 @@ var config = {
                 {
                     layer: 'red_barn',
                     opacity: 1,
+                },
+                {
+                    layer: 'ch3',
+                    opacity: 0,
                 }
             ]
         },
