@@ -1428,10 +1428,11 @@ var config = {
                 {
                     layer: 'ch15',
                     opacity: 0,
-                }
+                 }
             ]
+        },
         {
-            id: 'Chapter 10',
+            id: 'Chapter 11',
             alignment: 'left',
             hidden: false,
             title: "Stables in Pennypack Park",
@@ -1546,7 +1547,7 @@ var config = {
             ]
         },
          {
-            id: 'Chapter 11',
+            id: 'Chapter 12',
             alignment: 'left',
             hidden: false,
             title: "Black (female) owner of horse stable, a first on Fletcher Street",
@@ -1661,7 +1662,7 @@ var config = {
             ]
         },
          {
-            id: 'Chapter 12',
+            id: 'Chapter 13',
             alignment: 'left',
             hidden: false,
             title: "El Dog relocates horses to Brewerytown",
@@ -1776,7 +1777,7 @@ var config = {
             ]
         },
          {
-            id: 'Chapter 13',
+            id: 'Chapter 14',
             alignment: 'right',
             hidden: false,
             title: "Fletcher Street in the 1990's",
@@ -1803,7 +1804,7 @@ var config = {
             onChapterExit: []
         },
          {
-            id: 'Chapter 14',
+            id: 'Chapter 15',
             alignment: 'right',
             hidden: false,
             title: "Fletcher Street in the early 21st Century",
@@ -1918,7 +1919,7 @@ var config = {
             ]
         },
          {
-            id: 'Chapter 15',
+            id: 'Chapter 16',
             alignment: 'right',
             hidden: false,
             title: "Fletcher Street loses grazing pasture (click to change slide)",
@@ -2033,7 +2034,7 @@ var config = {
             ]
         },
          {
-            id: 'Chapter 16',
+            id: 'Chapter 17',
             alignment: 'left',
             hidden: false,
             title: "Fletcher Street Urban Riding Club gifted new stable in the park",
@@ -2148,7 +2149,7 @@ var config = {
             ]
         },
          {
-            id: 'Chapter 17',
+            id: 'Chapter 18',
             alignment: 'center',
             hidden: false,
             title: "Ride out to Fletcher family graves, November 2024",
