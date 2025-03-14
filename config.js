@@ -2018,7 +2018,7 @@ var config = {
             title: "Ride out to Fletcher family graves, November 2024",
             image: '',
             website: '', 
-            description: '<iframe src="https://drive.google.com/file/d/1yzBQxLucM1uukhTxUfsDhNzgx4GhzTtY/preview" width="100%" height="420" allow="autoplay"></iframe>',
+            description: '<iframe src="https://drive.google.com/file/d/1yzBQxLucM1uukhTxUfsDhNzgx4GhzTtY/preview" width="100%" height="420" allow="autoplay"></iframe><br><br>On a gorgeous day in early November 2024, members of the Fletcher Street Urban Riding Club decided to make a special visit to the Fletcher family graves. Previously unaware that their namesakes were at rest nearby, they rode to pay tribute to the people who may in fact be the reason horse culture has been omnipresent on that block for centuries. Enjoy the video to experience this full-circle moment.',
             location: {
                 center: [-75.18829, 39.99891],
                 zoom: 17.75,
