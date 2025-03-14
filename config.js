@@ -1903,7 +1903,7 @@ var config = {
             title: "Fletcher Street Urban Riding Club gifted new stable in the park",
             image: '',
             website: '', 
-            description: '<iframe src="https://drive.google.com/file/d/1pMBVU9359srmuA5073mPrl3mzkCnH5Lu/preview" width="100%" height="380xp" allow="autoplay"></iframe>',
+            description: '<iframe src="https://drive.google.com/file/d/1pMBVU9359srmuA5073mPrl3mzkCnH5Lu/preview" width="100%" height="380xp" allow="autoplay"></iframe><br><br>Losing the pasture was a massive blow for both humans and horses on Fletcher Street. Against the backdrop of the pandemic and the aftermath of Black Lives Matter, men and equines soldiered on, despite heavy challenges. After a lengthy negotiation process between the Fletcher Street Urban Riding Club and the city, Councilman Darrell Clarke came through on his promise to offer new grazing land for the club. The Cliffs, a new stable with plenty of space in Fairmount Park, was built and gifted to the club on November 21st, 2023. As depicted on the map, their new barn is located just on the other side of railroad tracks and 33rd Street, where Ellis used to run the Western Wranglers in Brewerytown. Since the Fletcher Street Urban Riding Club owns their land on Fletcher Street, they still have stables there. The Cliffs is on lease from the city. The club is still negotiating their official move with city officials.',
             location: {
                 center: [-75.19132, 39.97952],
                 zoom: 16,
