@@ -15,7 +15,7 @@ var config = {
     subtitle: "A Legacy of Philadelphia's Black Riders: Past and Present",
     byline: 'By Courtney Berne & Felipe Valdez',
     mobileview: '<div id="rotate-mobile"><em>For optimal viewing of this storytelling map on mobile, rotate your device to a horizontal orientation.</em><br><br><img src="images/device.png">', // to add custom messaging in the header for mobile devices
-    footer: 'Source: source citations, etc.<br> Created using <a href="https://github.com/digidem/maplibre-storymap" target="_blank">MapLibre Storytelling</a> template.',
+    footer: 'Created using <a href="https://github.com/digidem/maplibre-storymap" target="_blank">MapLibre Storytelling</a> template.',
     chapters: [
         {
             id: 'blank',
@@ -1150,7 +1150,7 @@ var config = {
             hidden: false,
             title: "Charlie",
             image: 'https://raw.githubusercontent.com/CEBerne/Timeline-Images/main/Charlie_bnw.png',
-            caption: 'Photo credit: Rick Gerrity',
+            caption: 'Photo credit: <a href="https://www.instagram.com/gerrityphoto?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=" target="_blank">Rick Gerrity</a>',
             website: '', 
             description: "“It was really nice down here. And the house over there (2613 W Fletcher St), I was damn near raised in there [...] The white man owned it. Horace Lederman. And he had a wife and two kids, and I used to spend the nights there. He used to go to the horse sales. ‘You want to go?’ I said ‘Yeah’. Horace Ledermen rented horses out every day, for the people, whoever wanted to go junkin' or whatever. He'd charged 'em so much a day for the horse, four dollars a day [...] and they took the horses out. When they get done, they bring 'em back [...] had a man in there named Sam. He used to take care of the horses for Horace Lederman, and it was good. That house was in better shape than it is now. He been dead over [...] twenty something years. Because the last time I saw him was in '74. But I went over his house in Jersey. He was glad to see me. He's a white man. He was glad to see me, he kissed me. But I loved it. I loved it. He loved at me too” (Interview, March 4, 2022).",
             location: {
@@ -2041,7 +2041,7 @@ var config = {
             title: "Special Thanks!",
             image: '',
             website: '', 
-            description: 'None of this would have been possible without the talent and endless patience of Felipe Valdez, GIS Specialist at Temple University’s Library. Thank you for being  my co-pilot. Additional thanks to: Alex Wermer-Colan, Michael Kuetemeyer, Jasmine Clark,  Jessica Braum, Max Georg Gaida, Sreedhar Nemmani, Victoria Sarmiento Giraldo, the entire LCDSS staff, Ann Greene, Jacob Shell, El Dog Ferrell, Darrin Ferrell, Choo-Choo Charlie, Ron Tarver, Rick Gerrity, Jimmie Hooks, Bertha Felder, all the <a href="https://fsurc.com/" target="._blank">FSURC</a> board members, Layla A. Jones, Darrell L. Clarke, Horace Lederman’s family, the Fletcher family estate, City Archive staff members Theresa Condon & Josh Blay, Free Library Map Collection archivists Megan MacCall & Grace Diliberto, Fairmount Park Historic Archivist Theresa Stuhlman, Program Coordinator Kat Bleiweiss at Laurel Hill East Cemetery, archival librarians at The Library Company, archival librarians at Temple’s Urban Archives, Department of Records staff at City Hall, and to Christopher for his support.<br><br>I also want to acknowledge the other black horsemen and women in Philadelphia who continue to uphold the legacy of black stables across the city. My hope is that this project expands to include your contributions to the story of horses in Philadelphia and beyond.',
+            description: 'None of this would have been possible without the talent and endless patience of <a href="https://felipevaldez.com" target="_blank">Felipe Valdez</a>, GIS Specialist at Temple University’s Library. Thank you for being  my co-pilot. Additional thanks to: Alex Wermer-Colan, Michael Kuetemeyer, Jasmine Clark,  Jessica Braum, Max Georg Gaida, Sreedhar Nemmani, Victoria Sarmiento Giraldo, the entire LCDSS staff, Ann Greene, Jacob Shell, El Dog Ferrell, Darrin Ferrell, Choo-Choo Charlie, Ron Tarver, Rick Gerrity, Jimmie Hooks, Bertha Felder, all the <a href="https://fsurc.com/" target="._blank">FSURC</a> board members, Layla A. Jones, Darrell L. Clarke, Horace Lederman’s family, the Fletcher family estate, City Archive staff members Theresa Condon & Josh Blay, Free Library Map Collection archivists Megan MacCall & Grace Diliberto, Fairmount Park Historic Archivist Theresa Stuhlman, Program Coordinator Kat Bleiweiss at Laurel Hill East Cemetery, archival librarians at The Library Company, archival librarians at Temple’s Urban Archives, Department of Records staff at City Hall, and to Christopher for his support.<br><br>I also want to acknowledge the other black horsemen and women in Philadelphia who continue to uphold the legacy of black stables across the city. My hope is that this project expands to include your contributions to the story of horses in Philadelphia and beyond.',
             location: {
                 center: [-75.17919, 39.99034],
                 zoom: 17.1,
