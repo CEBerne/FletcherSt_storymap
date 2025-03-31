@@ -441,12 +441,13 @@
             if (record.image) {
                 var image = new Image();
                 image.src = record.image;
+                image.loading = 'lazy';
                 chapter.appendChild(image);
             }
 
             // add image caption to chapters if found in config
             if (record.caption) {
-                caption = document.createElement('p');
+                var caption = document.createElement('p');
                 caption.setAttribute("class", "caption");
                 caption.innerHTML = `<em>${record.caption}</em>`;
                 chapter.appendChild(caption);
