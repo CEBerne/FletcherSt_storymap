@@ -135,6 +135,10 @@ var config = {
                 {
                     layer: 'red_barn',
                     opacity: 0,
+                },
+                {
+                    layer: 'mural',
+                    opacity: 0.85,
                 }
             ],
             onChapterExit: []
@@ -161,7 +165,10 @@ var config = {
             spinGlobe: false,
             mapInteractive: true,
             callback: '',
-            onChapterEnter: [],
+            onChapterEnter: [{
+                layer: 'mural',
+                opacity: 0,
+            }],
             onChapterExit: [
                 {
                     layer: '1875_b',

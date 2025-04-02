@@ -154,6 +154,17 @@
       "tileSize": 256,
       "bounds": [-75.19184121252573,39.99763790663531,-75.18692569533232,40.00056817023795]
     },
+    "mural_i": {
+      "type": "raster",
+      "tiles": [
+        "https://my-map-cogs.s3.us-east-2.amazonaws.com/mural/{z}/{x}/{y}.png"
+      ],
+      "minzoom": 0,
+      "maxzoom": 6,
+      "scheme": "xyz",
+      "tileSize": 256,
+      "bounds": [-125.15533842649197,21.876891362467106,-67.71685742264341,55.86415822864968]
+    },
     "ch2": {
       "type": "geojson",
       "data": "https://raw.githubusercontent.com/CEBerne/FletcherSt_storymap/main/map/sources/ch2.geojson"
@@ -6544,6 +6555,13 @@
       "source": "2024_i",
       "layout": {"visibility": "visible"},
       "paint": {"raster-opacity": 1}
+    },
+    {
+      "id": "mural",
+      "type": "raster",
+      "source": "mural_i",
+      "layout": {"visibility": "visible"},
+      "paint": {"raster-opacity": 0.6}
     },
     {
       "id": "ch2",
